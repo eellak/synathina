@@ -13,7 +13,7 @@ For a detailed presentation of synathina project and how to install configure an
 
 
 
-**List of Functionalities and Features**
+**List of Functionalities and Features of the platform**
 
 -**Member Profiles:** Citizens Groups (NGOs and informal groups of citizens) and Supporters (Companies, Foundations, City Services) can register in the platform and create a profile including their logo, description text, links to other URLS, presentation attachments, photos. The platform also allows supports to create invisible and anonymous profiles. The member profiles can optionally become newsletter subscribers. Acceptance of Terms of Use is obligatory.  Visible member profiles can be searched by entering key-words or filtering thematic categories.
 - **Mapping:** Activities taking place in the city are pinned on a -google- map of the city of Athens. The map has (single or team) pins pointing at the locations where active citizens are organizing their future activities. Clicking at each single pin, opens a pop-up box containing basic info (title, address, date &amp; time, citizen groups&#39; name, poster, short description) on each activity. Clicking at each team-pin (for activities taking place at the same address) helps user browse through different single pins by going left-right on a slider. The borders of the city of Athens is highlighted on the pin. The periphery of the City of Athens is also divided into its seven municipal districts via color coding. There is also a checklist where visitors can search forthcoming activities by thematic category. Scrolling over the map visitors can see can also see the number of citizens groups which have organized activities in each municipal district and the number of activities which have taken place in each of them.
