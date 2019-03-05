@@ -1,0 +1,176 @@
+.form {
+   input {
+      border: 1px solid #000;
+      height: 22px;
+      padding: 2px;
+      outline: 0;
+
+
+   }
+   textarea {
+   	border: 1px solid #000;
+    &.max-600 {
+      max-width: 600px;
+    }
+   }
+   &-label {
+      margin-top: 0;
+      font-size: 16px;
+      font-weight: bold;
+   }
+}
+
+  .max-600 {
+    max-width: 600px;
+  }
+// inline form
+.form-inline {
+	& > .form-group {
+		display: inline-block;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+  & > label {
+    width: 100%;
+  }
+  & > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.form-group--floated {
+  @include clearfix();
+  & > input {
+    float: left;
+  }
+  & > label {
+    float: right;
+    margin-left: 5px;
+    line-height: 32px !important;
+  }  
+}
+.form-tooltip {
+  font-size: 24px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.form-inline--cells {
+  display: table;
+  width: 100%;
+  & > .form-group {
+    display: table-cell;
+    vertical-align: middle;
+    input {
+      //width: 80%;
+    }
+  }
+  &.v-bottom {
+    & > * {
+      vertical-align: bottom;
+    }
+  }
+}
+.form-inline--flex {
+  @include flexbox;
+}
+
+.form-flex-6 {
+  @include flexbox;
+}
+.v-middle {
+  vertical-align: middle !important;
+}
+
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label {
+    color: #000;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  0;
+    border-radius:  0;
+}
+
+input[type="radio"] + label span {
+     background-color:#fff;
+     border: 1px solid #000;
+}
+
+input[type="radio"]:checked + label span{
+     background-color:#000;
+     border: 1px solid #000;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+//  -webkit-transition:background-color 0.4s linear;
+  //-o-transition:background-color 0.4s linear;
+  //-moz-transition:background-color 0.4s linear;
+  //transition:background-color 0.4s linear;
+}
+
+// input classes
+.input--large {
+  width: 100%;
+}
+.input--medium {
+  width: 50%;
+}
+
+.form {
+  .team-avatar {
+    line-height: 34px;
+  }
+}
+
+
+.form-block {
+  position : relative;
+  @include transition(all .3s ease);
+  .btn--add {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    bottom: 1px;
+    right: 0px;
+    background: url('../img/icons/cross.png') center no-repeat;
+    background-color: #000;
+    background-size: 24px 24px;
+  }
+  .btn--minus {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0px;
+    right: 0px;
+    background: url('../img/icons/line.png') center no-repeat;
+    background-color: #000;
+    background-size: 24px 24px;
+  }
+}
+
+
+// form elements state
+
+.form-block--hidden {
+   //@include transition(.3s all );
+   visibility: hidden !important;
+   height: 0 !important;
+   padding: 0 !important;
+   margin:0 !important;
+   position: absolute;
+   left: -9999px;
+   top: -9999px;
+}

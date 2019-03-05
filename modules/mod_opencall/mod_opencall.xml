@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.2"
+	client="site"
+	method="upgrade">
+	<name>Open call module</name>
+	<author>Steficon Core</author>
+	<creationDate>June 2016</creationDate>
+	<copyright>Copyright (C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>ddasios@steficon.gr</authorEmail>
+	<authorUrl>www.steficon.gr</authorUrl>
+	<version>3.0.0</version>
+	<description>The module for open call feature</description>
+	<files>
+		<filename module="mod_opencall">mod_opencall.php</filename>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_opencall.xml</filename>
+	</files>
+	<languages></languages>
+	<config>
+		<fields name="params">
+		</fields>	
+	</config>
+</extension>

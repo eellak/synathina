@@ -1,0 +1,42 @@
+.pagination {
+   display: inline-block;
+   @include inline-list;
+   font-size: 18px;
+   color: $text-color;
+   list-style: none;
+
+   li {
+      margin: 0 10px;
+      a {
+         @include transition(all, .3s);
+         color: $text-color;
+         font-size: 18px;
+      }
+      &.selected, &:hover, &:focus {
+         a {
+            color: $orange;
+         }
+      }
+      &.prev {
+         color: $orange;
+         .fa {
+            font-size: 22px;
+            color: $orange;
+         }
+         &:hover {
+            color: $orange;
+         }
+      }
+      &.next {
+         color: $orange;
+         .fa {
+            font-size: 22px;
+            color: $orange;
+         }
+         &:hover {
+            color: $orange;
+         }
+      }
+   }
+
+}

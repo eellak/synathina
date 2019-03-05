@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system">
+	<name>plg_system_images</name>
+	<author>Dizi</author>
+	<creationDate>January 2013</creationDate>
+	<copyright>Copyright (C) 2013 dizi.lt</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>labs@dizi.lt</authorEmail>
+	<authorUrl>http://www.dizi.lt/labs</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_IMAGES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="images">images.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+</extension>

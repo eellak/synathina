@@ -1,0 +1,39 @@
+.white-popup {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.graylight-popup {
+	background: #ebebeb;
+}
+.popup-title {
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: bold;	
+}
+.popup {
+	position: relative;
+	width: 100%;
+	.close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: 20px;
+		height: 20px;
+	}			
+	&__content {
+		padding: 20px 20px;
+	}
+	&.popup--questionmark {
+		font-size: 14px;
+		font-style: italic;
+		color: #000000;
+	}
+
+}
+.popup--small {
+	max-width: 360px;
+}

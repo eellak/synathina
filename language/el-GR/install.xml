@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" client="site" type="language" method="upgrade">
+	<name>Hellenic</name>
+	<tag>el-GR</tag>
+	<version>3.4.2.1</version>
+	<creationDate>2015-06-13</creationDate>
+	<author>Greek translation team : joomla.gr</author>
+	<authorEmail>joomla@joomla.gr</authorEmail>
+	<authorUrl>http://www.joomla.gr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2013 joomla.gr και Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License έκδοση 2 ή νεότερη· δες LICENSE.txt</license>
+	<description>Greek language pack for Joomla! 3.4.2</description>
+	<files>
+				<filename>el-GR.com_ajax.ini</filename>
+		<filename>el-GR.com_config.ini</filename>
+		<filename>el-GR.com_contact.ini</filename>
+		<filename>el-GR.com_content.ini</filename>
+		<filename>el-GR.com_finder.ini</filename>
+		<filename>el-GR.com_mailto.ini</filename>
+		<filename>el-GR.com_media.ini</filename>
+		<filename>el-GR.com_messages.ini</filename>
+		<filename>el-GR.com_newsfeeds.ini</filename>
+		<filename>el-GR.com_search.ini</filename>
+		<filename>el-GR.com_tags.ini</filename>
+		<filename>el-GR.com_users.ini</filename>
+		<filename>el-GR.com_weblinks.ini</filename>
+		<filename>el-GR.com_wrapper.ini</filename>
+		<filename>el-GR.files_joomla.sys.ini</filename>
+		<filename>el-GR.finder_cli.ini</filename>
+		<filename>el-GR.ini</filename>
+		<filename>el-GR.lib_fof.sys.ini</filename>
+		<filename>el-GR.lib_idna_convert.sys.ini</filename>
+		<filename>el-GR.lib_joomla.ini</filename>
+		<filename>el-GR.lib_joomla.sys.ini</filename>
+		<filename>el-GR.lib_phpass.sys.ini</filename>
+		<filename>el-GR.lib_phpmailer.sys.ini</filename>
+		<filename>el-GR.lib_phputf8.sys.ini</filename>
+		<filename>el-GR.lib_simplepie.sys.ini</filename>
+		<filename>el-GR.mod_articles_archive.ini</filename>
+		<filename>el-GR.mod_articles_archive.sys.ini</filename>
+		<filename>el-GR.mod_articles_categories.ini</filename>
+		<filename>el-GR.mod_articles_categories.sys.ini</filename>
+		<filename>el-GR.mod_articles_category.ini</filename>
+		<filename>el-GR.mod_articles_category.sys.ini</filename>
+		<filename>el-GR.mod_articles_latest.ini</filename>
+		<filename>el-GR.mod_articles_latest.sys.ini</filename>
+		<filename>el-GR.mod_articles_news.ini</filename>
+		<filename>el-GR.mod_articles_news.sys.ini</filename>
+		<filename>el-GR.mod_articles_popular.ini</filename>
+		<filename>el-GR.mod_articles_popular.sys.ini</filename>
+		<filename>el-GR.mod_banners.ini</filename>
+		<filename>el-GR.mod_banners.sys.ini</filename>
+		<filename>el-GR.mod_breadcrumbs.ini</filename>
+		<filename>el-GR.mod_breadcrumbs.sys.ini</filename>
+		<filename>el-GR.mod_custom.ini</filename>
+		<filename>el-GR.mod_custom.sys.ini</filename>
+		<filename>el-GR.mod_feed.ini</filename>
+		<filename>el-GR.mod_feed.sys.ini</filename>
+		<filename>el-GR.mod_finder.ini</filename>
+		<filename>el-GR.mod_finder.sys.ini</filename>
+		<filename>el-GR.mod_footer.ini</filename>
+		<filename>el-GR.mod_footer.sys.ini</filename>
+		<filename>el-GR.mod_languages.ini</filename>
+		<filename>el-GR.mod_languages.sys.ini</filename>
+		<filename>el-GR.mod_login.ini</filename>
+		<filename>el-GR.mod_login.sys.ini</filename>
+		<filename>el-GR.mod_menu.ini</filename>
+		<filename>el-GR.mod_menu.sys.ini</filename>
+		<filename>el-GR.mod_random_image.ini</filename>
+		<filename>el-GR.mod_random_image.sys.ini</filename>
+		<filename>el-GR.mod_related_items.ini</filename>
+		<filename>el-GR.mod_related_items.sys.ini</filename>
+		<filename>el-GR.mod_search.ini</filename>
+		<filename>el-GR.mod_search.sys.ini</filename>
+		<filename>el-GR.mod_stats.ini</filename>
+		<filename>el-GR.mod_stats.sys.ini</filename>
+		<filename>el-GR.mod_syndicate.ini</filename>
+		<filename>el-GR.mod_syndicate.sys.ini</filename>
+		<filename>el-GR.mod_tags_popular.ini</filename>
+		<filename>el-GR.mod_tags_popular.sys.ini</filename>
+		<filename>el-GR.mod_tags_similar.ini</filename>
+		<filename>el-GR.mod_tags_similar.sys.ini</filename>
+		<filename>el-GR.mod_users_latest.ini</filename>
+		<filename>el-GR.mod_users_latest.sys.ini</filename>
+		<filename>el-GR.mod_weblinks.ini</filename>
+		<filename>el-GR.mod_weblinks.sys.ini</filename>
+		<filename>el-GR.mod_whosonline.ini</filename>
+		<filename>el-GR.mod_whosonline.sys.ini</filename>
+		<filename>el-GR.mod_wrapper.ini</filename>
+		<filename>el-GR.mod_wrapper.sys.ini</filename>
+		<filename>el-GR.tpl_beez3.ini</filename>
+		<filename>el-GR.tpl_beez3.sys.ini</filename>
+		<filename>el-GR.tpl_protostar.ini</filename>
+		<filename>el-GR.tpl_protostar.sys.ini</filename>
+
+
+		<filename>index.html</filename>
+		<filename>el-GR.localise.php</filename>
+		<filename file="meta">install.xml</filename>
+		<filename file="meta">el-GR.xml</filename>
+	</files>
+	<params />
+</extension>

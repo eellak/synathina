@@ -1,0 +1,218 @@
+.nav {
+   //display: none;
+   &.is-open {
+      -webkit-transform: translateX(0%);
+      -moz-transform: translateX(0%);
+      -ms-transform: translateX(0%);
+      -o-transform: translateX(0%);
+      transform: translateX(0%);
+
+      box-shadow: -10px 0px 10px -10px #5d5d5d, -10px -10px 10px -10px #5d5d5d;
+   }
+   -webkit-transform: translateX(100%);
+   -moz-transform: translateX(100%);
+   -ms-transform: translateX(100%);
+   -o-transform: translateX(100%);
+   transform: translateX(100%);
+
+
+   @include transition(transform .3s ease);
+
+   max-width: 170px;
+   //background-color: #fff;
+   padding: 13px;
+   font-family: 'Roboto', sans-serif;
+   //box-shadow: -10px 0px 10px -10px #5d5d5d, -10px -10px 10px -10px #5d5d5d;
+   position: fixed !important;
+
+   right: 0px;
+   z-index: $zindex-navbar;
+
+   .nav {
+      @include transition(height .1s ease);
+   }
+   &:before {
+      left: 0 !important;
+      top: calc(0% + 10px);
+      box-shadow: 0px 10px 20px -2px #5d5d5d;
+      z-index: -1;
+   }
+   @include skew($side: bottom, $bg: #fff, $deg: 6.4deg, $top: 100px, $bottom: auto, $width: 100%, $height: 100%);
+   .inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+   }
+   ul { list-style-type: none; }
+
+   //transition
+
+
+};
+
+// language menu
+.nav-lang {
+   font-weight: bold;
+   font-size: 14px;
+
+   li{
+      a {
+         color: #d7d4cd;
+      }
+      &.selected, &:hover, &:focus {
+         a {
+            color: $blue-ele;
+         }
+      }
+   }
+}
+// account menu
+.nav-account {
+   margin-top: 35px;
+   ul {
+      a {
+         font-weight: bold;
+         color: $blue-ele;
+         font-size: 14px;
+      }
+   }
+   .inline-list--separated {
+      li {
+         &:after {
+         margin: 0 3px 0 5px;
+         color: $blue-ele;
+         }
+      }
+   }
+}
+
+.nav-activity {
+   margin-top: 35px;
+   ul {
+      li {
+         & + li {
+            margin-top: 13px;
+         }
+         a {
+            font-size: 14px;
+            font-weight: 500;
+            color: #000;
+            font-style: italic;
+         }
+      }
+   }
+
+   &:before {
+      @include vertical-align;
+      content: '';
+      height: 1px;
+      width: 100%;
+      background-color: #cacaca;
+
+   }
+}
+
+.nav-social-links {
+   a {
+      margin-top: 25px;
+      color: #bdbdbd;
+      font-size: 26px;
+      & + a {
+         margin-left: 5px;
+      }
+      &.selected, &:focus, &:hover {
+         color: #8f8f8f;
+      }
+   }
+}
+
+.nav-amea {
+   margin-top: 25px;
+   a {
+      font-size: 16px;
+      font-weight: bold;
+      color: #bebebe;
+      letter-spacing: -2px;
+      &.selected, &:hover, &:focus {
+         color: #8f8f8f;
+      }
+   }
+}
+
+.nav-site-com {
+    @extend .i18n-actions;
+    @include inline-list($navLinksColor);
+    li {
+        margin-right: $grid-gutter-width / 2;
+    }
+    a:hover {
+        color: $navLinksColorSelected;
+    }
+
+ }
+
+.nav-extra-links {
+    a {
+        display: inline-block;
+    }
+   img {
+      @include img-responsive;
+      margin-top: 0;
+   }
+}
+
+.hamburger {
+   z-index: $zindex-navbar + 1;
+   height: 55px;
+   top: calc(50% - 55px);
+   right: 0;
+   //margin: auto !important;
+   //@include transition(top 1s ease);
+   background-color: #fff !important;
+   &.is-active{
+      //@include transition(top 0.3s ease);
+      background-color: transparent;
+      left: auto !important;
+      right: 0 !important;
+      top: 0 !important;
+      margin: 0 !important;
+   }
+
+}
+
+.i18n-actions {
+    @extend .menu;
+    @extend .menu--inline;
+    text-align: right;
+    li + li {
+        margin-left: 5px !important;
+    }
+
+    li.selected a {
+        color: $navLinksColorSelected;
+    }
+
+    li > a {
+        font-size: 17px;
+    }
+}
+
+.account-actions {
+    @extend .i18n-actions;
+    @extend .inline-list--separated;
+    @include inline-list($navLinksColorSelected, $navLinksColorSelected);
+    li + li {
+        margin-left: 0 !important
+    }
+
+    li > a {
+        color: $navLinksColorSelected !important;
+        font-size: 17px;
+    }
+}
+
+.synathina-actions {
+    a {
+        line-height: 24px;
+    }
+}

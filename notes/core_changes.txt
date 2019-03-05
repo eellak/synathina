@@ -1,0 +1,2 @@
+\components\com_users\models\registration.php
+\components\com_users\models\profile.php

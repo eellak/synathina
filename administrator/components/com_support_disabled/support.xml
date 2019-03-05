@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.2.0" method="upgrade">
+	<name>com_support</name>
+	<creationDate>May 2017</creationDate>
+	<author>Alex Spahos</author>
+	<authorEmail>aspahos@steficon.gr</authorEmail>
+	<authorUrl>http://www.steficon.gr</authorUrl>
+	<copyright>Skata sta copyright</copyright>
+	<license>License Info</license>
+	<!--  The version string is recorded in the components table -->
+	<version>0.0.1</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>Simple component to manage support types provided for actions</description>
+
+ 
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu link='index.php?option=com_support'>COM_SUPPORT</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files>
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>support.php</filename>
+			<filename>controller.php</filename>
+			<folder>controllers</folder>
+			<!-- SQL files section -->
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">en-GB/en-GB.com_support.ini</language>
+        </languages>
+	</administration>
+ 
+</extension>

@@ -1,0 +1,77 @@
+// load more button for articles lazy loading
+.load-more-btn {
+   background-color: transparent;
+   background-image : url(../img/icons/load_more_icon.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: block;
+   width: 80px;
+   height: 22px;
+   margin: auto;
+   margin-bottom: 50px;
+   outline: 0;
+}
+.btn {
+   background: transparent;
+   display: inline-block;
+}
+
+
+.btn-search {
+   font-size: 18px;
+   color: #cccccc;
+   outline: 0;
+}
+
+.btn--coral {
+   background: #78b7e3;
+   color: #fff;
+}
+
+.btn--bold {
+   font-size: 15px;
+   font-weight: bold;
+}
+.btn--skewed {
+   position: relative;
+   & > * {
+      z-index: 999;
+   }
+}
+.btn--skewed:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: -4px;
+   width: 100%;
+   height: 10px;
+   background: inherit;
+   -webkit-transform: skewY(2.5deg);
+   -moz-transform: skewY(2.5deg);
+   -ms-transform: skewY(2.5deg);
+   -o-transform: skewY(2.5deg);
+   transform: skewY(2.5deg);
+   -webkit-backface-visibility: hidden;;
+}
+
+.btn--notrans {
+   &:hover {
+      background-color: transparent;
+      color: #000;
+   }
+}
+.btn--skewed--bottom:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   //top: 90% !important;
+   width: 100%;
+   height: 10px;
+   background: inherit;
+   -webkit-transform: skewY(1.5deg) translateY(406%);
+   -moz-transform: skewY(1.5deg) translateY(406%);
+   -ms-transform: skewY(1.5deg) translateY(406%);
+   -o-transform: skewY(1.5deg) translateY(406%);
+   transform: skewY(1.5deg) translateY(406%);
+   -webkit-backface-visibility: hidden;
+}

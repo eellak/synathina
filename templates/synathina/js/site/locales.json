@@ -1,0 +1,12 @@
+{
+    "el": {
+        "openMapText": "ΔΕΙΤΕ ΤΟΝ ΧΑΡΤΗ",
+        "closeMapText": "ΚΛΕΙΣΤΕ ΤΟΝ ΧΑΡΤΗ",
+        "buttonContactText": "Eπικοινωνία"
+    },
+    "en": {
+        "openMapText": "REVEAL MAP",
+        "closeMapText": "HIDE MAP",
+        "buttonContactText": "Contact us"
+    }
+}

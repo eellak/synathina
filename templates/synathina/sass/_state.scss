@@ -1,0 +1,32 @@
+.is-table {
+   display: table !important;
+}
+.is-tablecell {
+   display: table-cell !important;
+   vertical-align: middle;
+}
+.is-inline-block {
+	display: inline-block !important;
+	width: auto;
+}
+.is-block {
+	display: block !important;
+}
+.is-relative {
+   position: relative;
+}
+.is-static {
+   position: static !important;
+}
+
+.is-oveflow-hidden {
+   overflow: hidden !important;
+}
+
+.is-visible {
+   visibility: visible !important;
+}
+.is-visuallyhidden {
+   visibility: hidden !important;
+   height: 0;
+}

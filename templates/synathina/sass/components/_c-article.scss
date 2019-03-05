@@ -1,0 +1,32 @@
+.c-article {
+   @include clearfix;
+}
+.c-article > [role="complementary"] {
+   @include make-xs-column(6);
+   margin-top: 30px;
+   padding: 0 20px 0 0;
+}
+.c-article [role="complementary"] + [role="main"] {
+   @include make-xs-column(6);
+   margin-top: 30px;
+   padding: 0;
+}
+.c-article figure[role="complementary"] {
+   .figure-item {
+      display: block;
+      img {
+         @include img-responsive;
+      }
+   }
+   .figure-item + .figure-item {
+      margin-top: 25px;
+   }
+
+
+}
+
+
+// elements
+.c-article__content {
+   padding-top: 20px;
+}

@@ -1,0 +1,83 @@
+.video-container {
+   height: 0;
+   padding-bottom: 56.25%;
+   zoom: 1;
+   position: relative;
+   margin: auto;
+   // sizes
+   &--25 {
+      max-width: 25%;
+   }
+   &--50{
+      max-width: 50%;
+   }
+   &--75{
+      max-width: 75%;
+   }
+   &--100{
+      max-width: 100%;
+   }
+}
+
+.video-container > iframe, .video-container > video, .video-container > .youtube {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+
+.youtube {
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 200ms ease-out;
+    cursor: pointer;
+}
+
+.youtube .play {
+  
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo5QjcwRjQzODM4RUExMUU0QjgxMzlFODc5QjIyODlDOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo5QjcwRjQzOTM4RUExMUU0QjgxMzlFODc5QjIyODlDOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjlCNzBGNDM2MzhFQTExRTRCODEzOUU4NzlCMjI4OUM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjlCNzBGNDM3MzhFQTExRTRCODEzOUU4NzlCMjI4OUM4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+UVHoJAAABOxJREFUeNrcW1mMDEEYrm4zE9Z9hUcvrCP2wbks8cBixfGIiGAfXA+ORSIiESESiXVEXHGHhITw4L4SYgXxYENsHA/OsOImNnSvad9vamS0ntmZ7uruqv6TL1XZnen+v6/+uv6p0l69fMn8tHg80VXT2AhU+wDdOdoDLYEE/5gBfAc+AU+Ax0CdZbFrpmnU++lfzI+HJhKJQSimAuWceCHWP12BcPSsB6heBI4YhnFHtK+aqAiAo+1QzAVmAsU+NdhD4ACwE2J8kUIAhHhntFQVqvOBNiwYI/LbgE0Q4n0oAqDFqf+uAJYBRSwco3FjA7AOQhhuHqC7JN8TxQ1gVYjkGR9IyYeaeDxeHIgAIL8QxV1gAJPHBmqaVgvfZvsmQFFRkY4XbEaV0JzJZ+TTLvhYTb4KFQAPbdHY2HgS1YVMfquCryfIZyEC8MHuBDCRqWOTgOPcd/cCYGChhdIxYCxTz8aR79CgmWsBMLBUK9bydiPf17sSAMrNQLGAqW9LwGV6QQLgC735Sisqth2ceuUrALYgbA9fZETFWtEUybnlFoAvJoaw6NlwcKvMKQA+QPv0NQJG39uSirAWM1ubXBFAu7rOXt6APck5oJQUBy5LJkBXzGyLHXeDfD//DGjrUQDNFlXD+IZllCQifEwmk92wWvxmj4BKr+SzCFIDUGaoArglgQAddF2vdOoCc/x8K0Q4D9DgShFxOmQRZv8jAM/h9QjizRDhBjAhZCF6g3O/zAiYHLQHGUKE1TUmZwowJqxYDLFr/OGsva1/S3n7106rJBGzQKGG0CxDsRwY77MAlmWxLjrIl4kir1jX0Ig7dYG+Mi7ZAuoaJSRAT5kX8D7PGsV6UNOfQCEoO3VT0GN7kAAdVdrSQYQLwFBBEdFJ53tl5UxQ12itrACChPgjgMaiYSYr/Jcui9LetC3soCrreDwxEvP5alTLXHz9m7ICeCSetq8UMu9UIk47V+AMyF/2SJ7sPQnwSJUWB/Ealso3jhP02Icx2QUQFOrZ7BEJUCdpqA9mqVxihY+vqSMBrgJJ5vK0iGItnmm/iLuORcQHVO5L0OKjqI8LGtzysVpw/5xu9SthhjpwFtVLARFnmZzTAhwKq8V50qMiBO0P/hUAoVCL4l7AxINu8Uy7C851zDbwHYxoqGdtfbsAO/1YFUoQ6nZ7Y1narv8EQEg0oNgSsVB3si2m+fOHUwSQbfcaBZjHS0H8nITEyeoty9qR+Qfdllyg8/pLvLwB8zjl66Q8VWYxVmWa5tesAnARDjNxSUeZ7LppGEftf9SdhWJTgI8RIv8BoT+Nc2tSAIqCFyx18cGKAHniMAOh73gvIOsGCCKcQrE1AgJsBJcz2f6ZcweILy5CsU9h8nvBYVmuD+h5hM884LyC5GnVOb+pbtxkDoBfRaGfqvcoRH43MDGfazR5JUHwnF+xWIzOEG1WgHw1fJ1LPufz4byzQA0NDUk8lM7YjaYVlYTEyady+LiUfM33SwWnwfCCS5bFSsNMojgYZZEGw7eCD2a6ygOapvEcL6ODj3Qe/1mIxJ/yvl7O1y4sEAEy1wrJZLIE1ZW02gpyZcdSdxZL+HrF/d5F1NVZDDytdV2naWcW8/fq7H6IviN91NWraX7cHvd4edpualyezpEfcLo+3wmgw9nps8mfWeo+MN0DDvT6/G8BBgC/Lt3fVyi7cgAAAABJRU5ErkJggg==") no-repeat center center;
+    background-size: 64px 64px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    transition: all 0.2s ease-out;
+}
+/*
+.play {
+    background: url("../img/play.png") no-repeat center center;
+    background-size: 64px 64px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    transition: all 0.2s ease-out;
+}
+.play:hover, .pause:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+.pause {
+    background: url('../img/pause.png') no-repeat center center;
+    background-size: 64px 64px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    filter: alpha(opacity=80);
+    transition: all 0.2s ease-out;  
+}
+ */
+.youtube .play:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}

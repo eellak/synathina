@@ -1,0 +1,1044 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>1ο Διαμέρισμα</name>
+		<Placemark>
+			<name>Leof. Andrea Siggrou ke Lagoumitzi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72041719999993,37.9597351,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof syggrou border</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72658,37.964446900000006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Andrea Siggrou ke Athanasiou Diakou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731473600000072,37.9683202,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Andrea Siggrou ke Dionysiou Areopagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731617,37.9696278,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leoforos Vasilisis Amalias ke Lisikratous</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731721900000025,37.9702802,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leof vasilisis amalias
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.732842500000004,37.970990300000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leof vasilisis amalias
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7351465,37.9734282,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leoforos Vasilisis Amalias ke Othonos
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7355261,37.9748247,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Βουλή</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7371796,37.9746884,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof Vasilissis Sofias ke Akadimias
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.737588,37.976004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Irodotou ke leof. vasilissis sofias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.743059,37.9753523,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>rizari ke leof. Vasilissis Sofias
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7457989,37.9759073,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rizari ke Antinoros
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7465789,37.9739115,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antinoros ke Iofontos
+</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75025,37.9735593,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Vasileos Alexandrou ke Antinoros</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75140669999996,37.9734173,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Andrea Dimitriou ke Efroniou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7525234,37.972361,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Diocharous ke Oumplianis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7536016,37.9730142,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Diocharous ke Manoliassas</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75423890000002,37.9722874,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Efroniou ke Mpiglistas</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.756032300000015,37.9720911,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Imittou ke Efroniou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.757759599999986,37.9718483,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>camp1</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7600803,37.9711489,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>camp2</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7625694,37.9700155,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>camp3</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7641358,37.9688314,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>camp4</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.766346,37.9676304,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>camp5</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7689638,37.9673259,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>camp6</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7729979,37.9667338,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leof alimou ke leof eth. antistaseos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7886404,37.9653213,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>campus7</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7874603,37.9685439,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>campus8</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7755942,37.969931,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>campus9</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7738991,37.9687807,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>campus10</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7710345,37.9699394,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chatzi ke Zerva</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.770497100000057,37.9693345,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chatzi ke Ydaspou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7673055,37.9701632,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Taxilou ke Ydaspou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.76740010000003,37.971672,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Oulof Palme ke Taxilou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.760425199999986,37.9748844,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Taxilou </name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7588573,37.9755045,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Roumelis ke kraterou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7585032,37.9749209,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Roumelis ke Satomis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.757958700000017,37.97509499999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Taxilou ke Satomis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.758258999999953,37.9757027,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>taxilou ke vackchilidou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75753409999993,37.9759203,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vackhilidou ke Nimfeou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7589035,37.9772874,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nimfeou ke Antifilou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75757569999996,37.97786229999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Papadiamantopoulou ke Laodikias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.756642000000056,37.9792797,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Michalakopoulou ke Laodikias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75604569999996,37.9800517,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lourou ke Leof. Vasilissis Sofias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.754850000000005,37.9807816,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. vasilissis sofias ke petrou kokkali</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7552162,37.981232,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lahitos ke petrou kokkali</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7526345,37.9830987,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 41</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7522912,37.9831347,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Koniari ke Skopetea</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75145759999998,37.9833284,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Koniari ke Daskalogianni</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75198839999996,37.9852805,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Paliggenesias ke Daskalogianni</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.751403299999993,37.98615050000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Paliggenesias ke Argiroupoleos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74835510000003,37.9866985,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kosma Melodou ke Sarantapichou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7459719,37.9855764,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Zosimou ke Theod. Laskareos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7428391,37.9894471,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Theod. Laskareos ke Kavasila</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.742466599999943,37.989765,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Frantzi ke Kavasila</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.741899099999955,37.9893326,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Frantzi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7417126,37.989168,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vasiliou Voulgaroktonou ke Frantzi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.740773499999932,37.9886797,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thestroteos ke voulgaroktonou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7397975,37.9898551,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Alexandras ke Thesproteos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.739969500000033,37.9903319,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof Alexandras ke  Armeni vraila</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7397358,37.9904068,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mpousgou ke Armeni Vrela</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.740282999999977,37.9924086,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mpousgou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7406075,37.9925777,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Euelpidon</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7398136,37.9929244,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Euelpidon</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7400228,37.9936093,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 50</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7397707,37.9941673,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Euelpidon</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7392503,37.9945943,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Euelpidon</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7386334,37.9947549,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 53</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.738322300000004,37.9947676,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 54</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7380004,37.9946957,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 55</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.737260100000004,37.9948057,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Euelpidon</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7377751,37.9947169,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Evelpidon ke 28is Oktovriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7322283,37.9956216,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>28is Oktovriou ke Ioulianou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731079099999988,37.9913028,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acharnon ke Ioulianou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72693890000005,37.99193460000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721222600000033,37.9922701,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Theodore Diligiannis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7203193,37.9907514,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 59</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7197077,37.989423800000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 60</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7192142,37.9886374,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 61</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.718549,37.98781720000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 62</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7180555,37.9869801,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 63</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7192839,37.9852001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 64</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7193161,37.984828,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>P. Tsaldari ke Kolokinthous</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721797700000028,37.9813217,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pireos ke Millerou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72068760000002,37.9808403,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 65</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721242,37.980122,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 66</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7215155,37.97964,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tompazi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7215008,37.9790258,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leokoriou ke Tompazi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72111080000002,37.9787029,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sarri ke Leokoriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721458100000063,37.9782068,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sarri ke Ogigou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721967599999974,37.9786177,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lepeniotou ke Ogigou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.722423100000015,37.9782904,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lepeniotou ke Ivis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.722023600000057,37.9780531,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Navarchou Apostoli ke Ivis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.722599299999956,37.9775876,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Navarchou apostoli ke leokoriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7221727,37.9773038,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thisiou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7222826,37.9772002,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thisiou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7223752,37.9770321,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adrianou ke thisiou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7217838,37.9764972,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Adrianou ke Naos ifestou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7213036,37.9766948,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Naos ifestou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7209737,37.9765024,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Agias Marinas ke Apostolou Pavlou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72007940000003,37.9740573,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dioskouron ke Theorias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.725197799999933,37.97274000000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7255549,37.9728066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7258285,37.9727897,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.726040400000002,37.97280450000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7263569,37.9728806,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7262228,37.9728362,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Theorias ke Klepsidras</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72663650000004,37.9729634,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7273198,37.9728277,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 81</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7277061,37.9726226,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7281647,37.9722526,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.728379300000004,37.9720835,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.728551,37.9719376,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Acropolis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7287736,37.9719228,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stratonos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7288862,37.9716077,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stratonos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7289023,37.9713201,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Stratonos ke Thespidos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.728937900000005,37.9709872,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72934209999994,37.9694323,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7287521,37.969415,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.726896,37.9696392,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.725694400000002,37.9699394,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7250239,37.9699013,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7221539,37.9702439,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7219876,37.9701551,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rovertou Gali ke Garivaldi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7235916,37.969516500000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Garivaldi ke Sofroniskou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72379,37.9673512,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mouson ke Orlof</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72136069999999,37.9655135,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Panetoliou ke Pinotsi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7180877,37.9649956,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Galinou ke Pinotsi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7181011,37.9644712,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 100</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7169772,37.9650104,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arakinthou ke Mperantzofski</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.715370200000052,37.9663283,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Arakinthou ke Voutie</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.715298599999983,37.9667103,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Voutie ke Gkika</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.714404100000024,37.96671920000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Roumelis ke Pramanton</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.713050100000032,37.9650724,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 101</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7145203,37.964615,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tsaldarh</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7133348,37.9638622,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tsaldarh</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7147296,37.9639595,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tsaldarh</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.715663,37.9637226,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tsaldarh ke tripou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7166983,37.9629063,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trivoli ke Lagoumitzi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7174493,37.9623651,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lagoumitzi ke Panagh Tsaldarh</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7169917,37.9621673,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

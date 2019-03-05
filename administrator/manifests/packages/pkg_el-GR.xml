@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.4">
+	<name>Greek Language Pack</name>
+	<packagename>el-GR</packagename>
+	<version>3.4.2.1</version>
+	<creationDate>2015-06-13</creationDate>
+	<author>Greek translation team : joomla.gr</author>
+	<authorEmail>joomla@joomla.gr</authorEmail>
+	<authorUrl>http://www.joomla.gr</authorUrl>
+	<copyright>Copyright (C) 2005 - 2013 joomla.gr και Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License έκδοση 2 ή νεότερη· δες LICENSE.txt</license>
+	<url></url>
+	<packager>Joomla! στα Ελληνικά</packager>
+	<packagerurl>www.joomla.gr</packagerurl>
+	<description>Greek language pack for Joomla! 3.4.2 - Αρχεία ελληνικής γλώσσας για την έκδοση Joomla! 3.4.2 από την ομάδα του joomla.gr</description>
+	<files>
+		<file type="language" client="site" id="el-GR">site_el-GR.zip</file>
+		<file type="language" client="administrator" id="el-GR">admin_el-GR.zip</file>
+	</files>
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+	</updateservers>
+</extension>

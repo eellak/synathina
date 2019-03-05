@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>com_teams</name>
+	<author>Core Project</author>
+	<creationDate>April 2006</creationDate>
+	<copyright>(C) 2005 - 2013 Open Source Matters. All rights reserved.
+	</copyright>
+	<license>GNU General Public License version 2 or later; see
+		LICENSE.txt</license>
+	<authorEmail>info@steficon.gr</authorEmail>
+	<authorUrl>www.joomla.org</authorUrl>
+	<version>3.0.0</version>
+	<description>COM_TEAMS_XML_DESCRIPTION</description>
+
+	<install> <!-- Runs on install -->
+    	<sql>
+        	<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+  		</sql>
+    </install>
+    <uninstall> <!-- Runs on uninstall -->
+    	<sql>
+        	<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+  		</sql>
+   </uninstall>
+
+	<languages folder="site">
+		<language tag="en-GB">language/en-GB.com_teams.ini</language>
+	</languages>
+	<administration>
+		<menu img="class:teams">com_teams</menu>
+		<submenu>
+			<!--
+				Note that all & must be escaped to &amp; for the file to be valid
+				XML and be parsed by the installer
+			-->
+			<menu link="option=com_teams" view="links" img="class:teams"
+				alt="teams">com_teams_links</menu>
+			<menu link="option=com_categories&amp;extension=com_teams"
+				view="categories" img="class:teams-cat" alt="teams">com_teams_categories</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>teams.php</filename>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_teams.ini</language>
+			<language tag="en-GB">language/en-GB.com_teams.sys.ini</language>
+		</languages>
+	</administration>
+</extension>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="team" addfieldpath="/administrator/components/com_support/models/fields">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="name"
+			type="text"
+			label="COM_SUPPORT_NAME"
+			description="COM_SUPPORT_NAME_DESC"
+			size="40"
+			class="inputbox"
+			required="true" 
+			default=""
+			/>
+		<field 
+			name="parent_id" 
+			type="ParentDonation"
+			class="inputbox"
+			label="COM_SUPPORT_NAME_CATEGORY"
+			description="COM_SUPPORT_NAME_CATEGORY_DESC"
+			default=""
+			size="1"
+			required="true" 
+		/>
+	</fieldset>
+</form>

@@ -1,0 +1,262 @@
+/** unordered inline list*/
+@mixin inline-list($color: $black, $border-color: $gray) {
+	color: $color;
+	font-size: 13px;
+	& > * {
+		display: inline-block;
+		vertical-align: middle;
+		line-height: 20px;
+		a {
+			color: $color;
+		}
+		&:after {
+			color: $border-color;
+		}
+	}
+}
+
+// fill mode
+// =========
+@mixin fill($padding-bottom: 38%) {
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	padding-bottom: $padding-bottom;
+	display: block;
+}
+
+// mod-bar MOD BAR with rectangle
+@mixin module-bar($color: $black, $padding-bottom : 25px) {
+	.rectangle {
+		background-color: $color;
+		display: block;
+		bottom: -5px;
+		position: absolute;
+	}
+	position: relative;
+	padding-bottom: $padding-bottom;
+	border-bottom: 1px solid $color;
+
+}
+/** title for components and articles */
+@mixin module-title($fontsize: 20px, $text-align: center) {
+	font-family: 'ZonaPro-Thin';
+	font-size: $fontsize;
+	text-align: $text-align;
+	margin: 0;
+	strong {
+		font-family: 'ZonaPro-Bold';
+	}
+}
+
+// font awesome setup
+@mixin fa {
+	font: normal normal normal 14px/1 FontAwesome;
+   font-size: inherit;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+// zoom pseudo
+// ===========
+@mixin zoom-pseudo {
+	 z-index: 50;
+	 content: "\f002";
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 0;
+	 bottom: 0;
+	 margin: auto;
+	 line-height: 60px;
+	 text-align: center;
+	 color: rgba(255, 255, 255, 0.502);
+	 font-size: 27px;
+	 -webkit-transition: color 0.2s;
+	 -o-transition: color 0.2s;
+	 transition: color 0.2s;
+}
+// media buttons over media-thumb like play,stop
+// =============================================
+@mixin btn-absolute() {
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin: auto;
+   line-height: 60px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.502);
+   font-size: 27px;
+   -webkit-transition: color 0.2s;
+   -o-transition: color 0.2s;
+   transition: color 0.2s;
+   width: 60px;
+   height: 60px;
+}
+// ALIGNMENTS
+// ==========
+@mixin vertical-align() {
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: auto;
+}
+@mixin vertical-alignY() {
+   -webkit-transform: translateY(-50%);
+   -moz-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   -o-transform: translateY(-50%);
+   transform: translateY(-50%);
+   position: absolute;
+   top: 60%;
+   height: auto;
+}
+// TABLE LAYOUT
+// ===========
+@mixin cells() {
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	& > * {
+		display: table-cell;
+   	vertical-align: middle;
+	}
+}
+
+
+@mixin label($font-size: 11px, $bg-color: $brown, $color: #fff, $position: static) {
+   display: inline-block;
+   position: $position;
+   color: $color;
+   background-color: $bg-color;
+   padding: 5px;
+   line-height: $font-size;
+   font-size: $font-size;
+   font-weight: bold;
+}
+
+// fullscreen medium
+@mixin fullscreen()  {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   top: 0;
+   right: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   margin: auto;
+   background-size: 100% 100%;
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   object-fit: cover;
+   z-index: 3;
+}
+
+// eshop button type
+@mixin make-btn($bg-color: #fff, $text-color: #000) {
+   padding: 0;
+   border: 1px solid $black;
+   background-color: $bg-color;
+   color: $text-color;
+   text-decoration: none;
+   &:hover{
+      text-decoration: none;
+   }
+}
+
+@mixin icon-flip ($horiz, $vert, $rotation) {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=#{$rotation});
+  -webkit-transform: scale($horiz, $vert);
+      -ms-transform: scale($horiz, $vert);
+          transform: scale($horiz, $vert);
+}
+
+@mixin skew-side($deg : 6.4deg){
+   background-color: #fff;
+   content: '';
+   display: block;
+   height: 100%;
+   width: 100%;
+   top: 50%;
+   position: absolute;
+   left:0;
+   right:0;
+   margin: auto;
+   -webkit-transform: skewY($deg);
+   -moz-transform: skewY($deg);
+   -ms-transform: skewY($deg);
+   -o-transform: skewY($deg);
+   transform: skewY($deg);
+   z-index: -1;
+}
+
+@mixin skew($side: top, $deg: 0deg, $top: 9%, $bottom: auto, $width: auto, $height: auto, $bg: transparent) {
+    position: relative;
+
+    &:before {
+        z-index: -1;
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+
+        @if $side == top {
+            top: $top;
+        }
+        @else if $side == bottom {
+            bottom: $bottom;
+        }
+
+        display: block;
+        width: $width;
+        height: $height;
+        background: $bg;
+        -webkit-transform: skewY($deg);
+        -ms-transform: skewY($deg);
+        transform: skewY($deg);
+    }
+}
+@mixin skew2($side: top, $deg: 0deg, $top: 9%, $bottom: auto, $width: auto, $height: auto, $bg: transparent) {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+        @if $side == top {
+            top: $top;
+        }
+        @else if $side == bottom {
+            bottom: $bottom;
+        }
+
+        display: block;
+        width: $width;
+        height: $height;
+        background: $bg;
+        -webkit-transform: skewY($deg);
+        -ms-transform: skewY($deg);
+        transform: skewY($deg);
+    }
+}
+
+
+@mixin horizontal-centerer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @mixin box-shadow {
+    box-shadow: 0 50px 100px rgba(50,50,93,.1), 0 15px 35px rgba(50,50,93,.15), 0 5px 15px rgba(0,0,0,.1)
+  }

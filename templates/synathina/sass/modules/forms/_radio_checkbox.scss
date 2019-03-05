@@ -1,0 +1,147 @@
+   // DV CHECKBOXES
+/*
+ input[type=checkbox] { display:none; } 
+ input[type=checkbox] + label:before {
+   font-family: FontAwesome;
+   display: inline-block;
+   width: 30px;
+   cursor: pointer;
+ }
+
+ input[type=checkbox] + label:before {
+  content: "\f096"; 
+ }
+ input[type=checkbox] + label:before { 
+    letter-spacing: 10px;
+ } 
+
+ input[type=checkbox]:checked + label:before { 
+    content: "\f0c8"; 
+ } 
+ input[type=checkbox]:checked + label:before { 
+    letter-spacing: 5px; 
+ }  
+
+ input[type=radio] { display:none; } 
+ input[type=radio] + label:before {
+   font-family: FontAwesome;
+   display: inline-block;
+   width: 30px;
+   cursor: pointer;
+ }
+
+ input[type=radio] + label:before {
+  content: "\f096"; 
+ }
+ input[type=radio] + label:before { 
+    letter-spacing: 10px;
+ } 
+
+ input[type=radio]:checked + label:before { 
+    content: "\f0c8"; 
+ } 
+ input[type=radio]:checked + label:before { 
+    letter-spacing: 5px; 
+ }     
+ */
+  $white: white;
+  $highlightColorActive: $orange;
+  $blue: rgb(69, 113, 236);
+
+
+  @mixin square($dim) {
+    width: $dim;
+    height: $dim;
+  }
+  
+  input[type=checkbox], input[type=radio] {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    & + label:before {
+      content: '' !important;
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      @include square(20px);
+      background: $white;
+      border: 1px solid #000;
+    }
+
+    &:focus + label:before,
+    &:hover + label:before {
+      background: $highlightColorActive;
+      box-shadow: 0 0 0 6px rgba(0,0,0,0.12);
+    }
+
+    &:checked + label:before {
+      background: $highlightColorActive;
+    }
+    
+    &.disabled + label,
+    &[disabled] + label {
+      color: #b8b8b8;
+    }
+    &.disabled + label:before,
+    &[disabled] + label:before {
+      box-shadow: none;
+      background: #ddd;
+    }
+
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 6px;
+      top: 9px;
+      background: $white;
+      @include square(2px);
+      box-shadow: 
+        2px 0 0 $white,
+        4px 0 0 $white,
+        4px -2px 0 $white,
+        4px -4px 0 $white,
+        4px -6px 0 $white;
+      @include rotate(45deg);
+    }
+  }
+
+ .label-horizontal {
+    @include clearfix;
+    height: 100%;
+    display: block;
+    line-height: 16px !important;
+    &:before {
+       display: block;
+       height: 100%;
+       float: left;         
+    }
+ }
+ .relative {
+    display: inline-block;
+    width: auto;
+    padding-bottom: 15px;
+    text-align: center;
+    cursor: pointer !important;
+    & + .relative {
+       margin-left: 20px;
+    }
+    label:before {
+      position: absolute;
+      bottom: 0;         
+    }
+    input[type=radio] + label{
+
+       &:before {
+          left: 0;
+          right: 0;
+          margin: auto;
+          display: inline-block;
+          width: 11px;
+       }
+    }
+ }

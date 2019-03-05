@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="team" addfieldpath="/administrator/components/com_teams/models/fields">
+
+		<field
+			name="main_info"
+			type="note"
+			class="inputbox"
+			label="Main Info"
+			size="100"
+		/>
+		<field
+			name="user_id"
+			type="user"
+			class="inputbox"
+			label="Χρήστης"
+			size="100"
+		/>
+		<field
+			name="create_actions"
+			type="checkbox"
+			class="inputbox"
+			label="ΘΕΛΩ ΝΑ ΔΙΟΡΓΑΝΩΣΩ ΔΡΑΣΕΙΣ"
+			size="100"
+		/>
+		<field
+			name="support_actions"
+			type="checkbox"
+			class="inputbox"
+			label="ΘΕΛΩ ΝΑ ΥΠΟΣΤΗΡΙΞΩ ΔΡΑΣΕΙΣ"
+			size="100"
+		/>
+		<field
+			name="legal_form"
+			type="checkbox"
+			class="inputbox"
+			label="ΕΧΩ ΝΟΜΙΚΗ ΜΟΡΦΗ"
+			size="100"
+		/>
+		<field
+			name="profit"
+			type="checkbox"
+			class="inputbox"
+			label="ΚΕΡΔΟΣΚΟΠΙΚΗ"
+			size="100"
+			default="0"
+		/>
+		<field
+			name="name"
+			type="text"
+			class="inputbox"
+			label="Όνομα"
+			required="true"
+			size="100"
+		/>
+		<field name="alias" type="text" label="Alias"
+			hint="alias"
+			size="40" />
+		<field
+			name="team_or_org"
+			type="list"
+			class="inputbox"
+			label="Τύπος"
+			size="1"
+			default="10">
+			<option	value="12">Επιχείρηση/Εταιρεία</option>
+			<option	value="10">Ομάδα πολιτών</option>
+			<option	value="11">Φορέας Οργανισμός</option>
+			<option	value="13">Ιδιώτης/Δημότης</option>
+		</field>
+		<field
+			name="profit_id"
+			type="Typeedit"
+			class="inputbox"
+			label="Τύπος Μη Κερδοσκοπικής μορφής"
+			size="1"
+			default="0" />
+		<field
+			name="profit_custom"
+			type="text"
+			class="inputbox"
+			label="Άλλος τύπος Μη Κερδοσκοπικής μορφής"
+			size="100"
+		/>
+		<field
+			name="activities"
+			type="Teamedit"
+			class="inputbox"
+			label="Θεματικές"
+			size="2"
+			multiple="true"
+			default="0" />
+		<field
+			name="org_donation"
+			type="Donationedit"
+			class="inputbox"
+			label="ΔΙΑΣΥΝΔΕΣΗ ΥΠΟΣΤΗΡΙΚΤΩΝ ΜΕ ΔΙΟΡΓΑΝΩΤΕΣ"
+			size="2"
+			multiple="true"
+			default="-1" />
+		<field
+			name="donation_other_1"
+			type="text"
+			class="inputbox"
+			label="Προσφορά σε είδος"
+			size="100"
+		/>
+		<field
+			name="donation_other_2"
+			type="text"
+			class="inputbox"
+			label="Προσφορά σε τεχνογνωσία"
+			size="100"
+		/>
+
+		<field
+			name="description"
+			type="editor"
+			class="inputbox"
+			filter="raw"
+			label="Πλήρης Περιγραφή"
+			required="true"
+			size="100"
+		/>
+		<field
+			name="logo"
+			type="media"
+			class="inputbox"
+			label="Λογότυπο"
+			directory="team_logos"
+			required="false"
+			size="100"
+		/>
+		<field
+    name="gallery_upload"
+    type="media"
+		class="inputbox"
+		directory="team_photos"
+    label="Gallery"
+		/>
+		<field
+    name="files_upload"
+    type="media"
+		class="inputbox"
+		directory="team_files"
+    label="Αρχεία"
+		/>
+		<field
+			name="social"
+			type="note"
+			class="inputbox"
+			label="Social Links"
+			size="100"
+		/>
+		<field
+			name="web_link"
+			type="text"
+			class="inputbox"
+			label="Website url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="fb_link"
+			type="text"
+			class="inputbox"
+			label="Facebook url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="tw_link"
+			type="text"
+			class="inputbox"
+			label="Twitter url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="pn_link"
+			type="text"
+			class="inputbox"
+			label="Pinterest url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="in_link"
+			type="text"
+			class="inputbox"
+			label="Instagram url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="go_link"
+			type="text"
+			class="inputbox"
+			label="Google url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="li_link"
+			type="text"
+			class="inputbox"
+			label="Linkedin url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="yt_link"
+			type="text"
+			class="inputbox"
+			label="YouTube url"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="various_info"
+			type="note"
+			class="inputbox"
+			label="Various Info"
+			size="100"
+		/>
+		<field
+			name="contact_1_info"
+			type="note"
+			class="inputbox"
+			label="1. Υπεύθυνος Επικοινωνίας"
+			size="100"
+		/>
+		<field
+			name="contact_2_info"
+			type="note"
+			class="inputbox"
+			label="2. Υπεύθυνος Επικοινωνίας"
+			size="100"
+		/>
+		<field
+			name="contact_3_info"
+			type="note"
+			class="inputbox"
+			label="3. Υπεύθυνος Επικοινωνίας"
+			size="100"
+		/>
+		<field
+			name="contact_1_name"
+			type="text"
+			class="inputbox"
+			label="Όνομα"
+			required="true"
+			size="100"
+		/>
+		<field
+			name="contact_1_email"
+			type="text"
+			class="inputbox"
+			label="Email"
+			required="true"
+			size="100"
+		/>
+		<field
+			name="contact_1_phone"
+			type="text"
+			class="inputbox"
+			label="Τηλέφωνο"
+			required="true"
+			size="100"
+		/>
+		<field
+			name="contact_2_name"
+			type="text"
+			class="inputbox"
+			label="Όνομα"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="contact_2_email"
+			type="text"
+			class="inputbox"
+			label="Email"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="contact_2_phone"
+			type="text"
+			class="inputbox"
+			label="Τηλέφωνο"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="contact_3_name"
+			type="text"
+			class="inputbox"
+			label="Όνομα"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="contact_3_email"
+			type="text"
+			class="inputbox"
+			label="Email"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="contact_3_phone"
+			type="text"
+			class="inputbox"
+			label="Τηλέφωνο"
+			required="false"
+			size="100"
+		/>
+		<field
+			name="newsletter"
+			type="radio"
+			default="1"
+			class="btn-group"
+			label="Newsletter">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>			<field			name="hidden"			type="radio"			default="0"			class="btn-group"			label="Anonymous">			<option value="0">JNO</option>			<option value="1">JYES</option>		</field>
+		<field
+			name="published"
+			type="radio"
+			default="0"
+			class="btn-group"
+			label="Δημοσιευμένο">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="ordering"
+			type="hidden"
+			class="readonly"
+			label="ordering"
+			description ="ordering"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="language"
+			type="contentlanguage"
+			label="Γλώσσα"
+			class="inputbox"
+			width="230"
+		>
+			<option value="*">All</option>
+		</field>
+
+		<field
+			name="id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="catid"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="asset_id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+	</fieldset>
+</form>

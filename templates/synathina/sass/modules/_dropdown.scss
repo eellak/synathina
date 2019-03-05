@@ -1,0 +1,27 @@
+.dropdown {
+    top: $grid-gutter-width + 1;
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    min-width: 150px;
+    @include box-shadow;
+
+    &--open {
+        display: block;
+    }
+}
+
+.dropdown--inverted {
+    bottom: $grid-gutter-width;
+    top: auto;
+    right: 0;
+    left: auto;
+}
+
+.dropdown .menu {
+    li + li {
+        margin-left: 0;
+    }
+}

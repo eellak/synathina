@@ -1,0 +1,463 @@
+/* ==|====================
+   Module/Box
+   ======================= */
+
+.module {
+
+}
+
+.module-head  {
+
+}
+
+.module-title {
+
+}
+
+.module-body  {
+
+}
+
+.module--popup {
+   max-width: 600px;
+}
+
+.module-footer  {
+
+}
+.module--center {
+   text-align: center;
+   margin: auto;
+
+}
+.module-debug {
+   //@include vertical-align;
+   right: 10%;
+   top: 10%;
+   position: absolute;
+   width: auto;
+   //color: orange;
+   //font-weight: bold;
+   //font-family: 'Monaco', Arial;
+   //font-size: 30px;
+}
+
+
+.inline-list {
+   @include inline-list;
+}
+
+
+.module-embed {
+   position: relative;
+   padding-bottom: 68.615984%;
+   & > iframe, & > video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+   }
+}
+
+
+// ** synathina variations **/
+
+.module--synathina {
+   $color-blue : #78b7e3;
+   @include clearfix;
+   z-index: 1;
+   position: relative;
+    &.skewed{
+      position: relative;
+
+      @include skew2($side: bottom, $bg: #fff, $deg: 2deg, $top: auto, $bottom: -20px, $width: 100%, $height: 40px);
+
+      &:before {
+         background-color: inherit;
+         z-index: -1;
+         @media(min-width: $screen-sm){
+            //z-index: auto !important;
+         }
+      }
+   }
+   .module-wrapper {
+      max-width: 768px;
+      margin: auto;
+      padding:0 20px;
+   }
+
+   .module-title {
+      font-size: 32px;
+      font-weight: 300;
+      line-height: 32px;
+      color: $color-blue;
+      padding-top: 34px;
+      // variations
+      &--subtitle {
+         font-size: 22px;
+         color: $color-blue;
+         font-weight: 300;
+      }
+   }
+   p, .module-body {
+      font-size: 15px;
+      font-weight: 400;
+   }
+   a {
+      color: $color-blue;
+      font-weight: bold;
+   }
+   .media {
+
+      position: relative;
+      + .media {
+         margin-top: 20px;
+      }
+   }
+   .media-left {
+      vertical-align: top;
+      padding-right: 20px;
+      .fill {
+         @include fill($padding-bottom: 100%);
+         background-size: cover;
+         background-position: top center;
+         background-repeat: no-repeat;
+         display: block;
+         background-size: 90%;
+         width: 68px;
+         &--collect {
+            background-position: 0 0;
+         }
+         &--connect {
+            background-position: 0 36%;
+         }
+         &--filter {
+            background-position: 0 72%;
+         }
+         &--merge {
+            background-position: 0 108%;
+         }
+      }
+   }
+   .media-heading {
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: bold;
+      color: $color-blue;
+      margin:0;
+      + p {
+         margin: 0;
+      }
+   }
+}
+.module-skewed:before {
+   content: '';
+   position: absolute;
+   left: 0;
+   bottom: -40px;
+   overflow: visible;
+   width: 100%;
+   //height: 50%;
+   height: 50%;
+   background: inherit;
+   z-index: -1;
+   -webkit-transform: skewY(2.5deg);
+   -moz-transform: skewY(2.5deg);
+   -ms-transform: skewY(2.5deg);
+   -o-transform: skewY(2.5deg);
+   transform: skewY(2.5deg);
+   -webkit-backface-visibility: hidden;
+}
+
+.module-progress {
+   max-width: 992px;
+   margin: auto;
+   text-align: center;
+   //@include cells;
+   & > * {
+      width: 48%;
+      display: inline-block;
+      vertical-align: top;
+   }
+
+}
+
+.module-title--layout {
+   font-size: 32px;
+   font-weight: 500;
+}
+
+.module-skewed, .module--gray {
+   background-color: #ebebeb;
+}
+
+.module-cells {
+   @include cells();
+}
+.module-cells--halfs {
+   & > * {
+      width: 50%;
+   }
+}
+
+// insides
+
+
+.module__forms {
+   $labelweight : bold;
+   $labelsize : 16px;
+   $bordercolor : #5d5d5d;
+   padding: 0 20px;
+   textarea {
+      width: 100%;
+   }
+   label {
+      font-size: $labelsize;
+      font-weight: $labelweight;
+      color: #5d5d5d;
+   }
+   .filters {
+      & > label {
+         font-size: $labelsize !important;
+         font-weight: $labelweight !important;
+      }
+      label {
+         font-size: 13px;
+      }
+   }
+   .is-block.is-italic {
+      margin-top: 2px;
+   }
+   [type="submit"] {
+      padding: 5px 10px;
+   }
+   .form {
+      & > .form-inline + .form-inline{
+         margin-bottom: 20px;
+      }
+      & > .form-inline.filters {
+         //margin-bottom: 20px;
+      }
+
+      label.is-block {
+         margin-bottom: 5px;
+      }
+   }
+   input[type=checkbox] + label:before, input[type=radio] + label:before {
+      width: 20px;
+   }
+   input {
+      height: 32px !important;
+   }
+   .form-inline {
+      .form-group {
+         margin: 10px 0 0px 0;
+         + .form-group {
+            margin-left: 5px;
+            @media(max-width: $screen-xs){
+               margin-left: 0px;
+            }
+         }
+         + .form-group + .inline {
+
+         }
+      }
+
+   }
+   .form-group--tail {
+      margin-top: 40px !important;
+   }
+   .form-group--upload {
+      margin-left: 20px !important;
+   }
+   .margin0 {
+      margin: 0 !important;
+   }
+   .form--bordered {
+      border-bottom: 1px solid $bordercolor;
+      padding-bottom: 24px;
+      padding-top: 24px;
+      & > .form-group {
+         margin-bottom: 20px !important;
+      }
+   }
+   .form--padded {
+      padding-bottom: 24px;
+      padding-top: 24px;
+      &--16 {
+         padding-bottom: 16px;
+         padding-top: 16px;
+      }
+   }
+
+}
+
+
+.chart {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+   padding: 0px 20px;
+   text-align: center;
+   z-index: 99; background-color: $color-module;
+   max-width: $screen-lg;
+   margin: auto;
+   position: relative;
+   margin-bottom: 42px;
+   margin-top: 42px;
+   &-overview-value {
+      font-size: 24px;
+      font-weight: bold;
+      color: #5c5c5c;
+   }
+   &-title{
+      margin-bottom: 20px;
+      h3 {
+         font-size: 20px;
+         color: #5c5c5c !important;
+         padding-top: 0 !important;
+      }
+   }
+   &-content {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 40px 20px;
+   }
+}
+
+.pattern {
+   width: 100%;
+}
+
+.pattern--dots {
+   background-color: black;
+   background-image: linear-gradient(120deg, red 25%, transparent 0%, transparent 75%, red 75%, #ff4d54),
+       linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+   background-size:5px 5px;
+   background-position: 0 0, 5px 5px;
+}
+
+.bar {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: stretch;
+   align-items: center;
+   min-height: 41px;
+   padding: 3px;
+   font-size: 16px;
+   &--orange {
+      background-color: #ff4d54;
+      color: #fff;
+   }
+   &--orangeWithMask {
+
+   }
+   &--vertical {
+      min-height: 0px;
+      height: 100%;
+   }
+   &-value {
+      width: 100%;
+      -webkit-transform: all .3s ease ;
+      -moz-transform: all .3s ease ;
+      -ms-transform: all .3s ease ;
+      -o-transform: all .3s ease ;
+      transform: all .3s ease ;
+   }
+}
+.chart-com {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: stretch;
+   align-items: flex-end;
+   &-column {
+      position: relative;
+      flex: 1;
+      padding: 0 20px;
+      height: 200px;
+      align-items : flex-end;
+      display: flex;
+      .bar {
+         display: flex;
+         align-items : flex-end;
+         flex-direction: column;
+         position: relative;
+         .bar-value {
+            position: absolute;
+            bottom:0;
+            left:0;
+         }
+      }
+   }
+   &-label {
+      position: absolute;
+      bottom: calc(-50% + 30px);
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-weight: bold;
+      color: #5c5c5c;
+      .value-x {
+         font-size: 24px;
+         line-height: 26px;
+      }
+      .value-sum {
+         font-size: 18px;
+         line-height: 20px;
+      }
+   }
+}
+.chart--1 {
+   .chart-com {
+      margin-bottom: 160px;
+      display: flex;
+   }
+   .bar {
+      font-weight: bold;
+      & > span {
+         font-style: italic;
+         flex: 1;
+         &:first-of-type {
+            font-style: initial;
+         }
+         &.has-label {
+            position: relative;
+            &:before {
+               position: absolute;
+               height: 41px;
+               content: '';
+               width: 1px;
+               background-color: #666;
+               left:0;
+               right:0;
+               margin:auto;
+               bottom: calc(100% + 8px);
+            }
+            &:after {
+               font-family: 'FontAwesome';
+               content: '\f111';
+               font-style: initial;
+               position: absolute;
+               bottom: calc(100% + 40px);
+               font-size: 14px;
+               left:0; right: 0;
+               margin: auto;
+               color: #666;
+            }
+         }
+      }
+      + .bar {
+         margin-top : 10px;
+      }
+   }
+}

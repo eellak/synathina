@@ -1,0 +1,102 @@
+.mobile-menu {
+    position: absolute;
+
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    pointer-events: none;
+    perspective: 2000px;
+    z-index: $zindex-mobile-menu;
+
+    &--active .mobile-menu__list {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+        pointer-events: auto
+    }
+}
+
+.mobile-menu__list {
+    background: #fff;
+    -webkit-box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    box-shadow: 0 50px 100px rgba(50, 50, 93, .1), 0 15px 35px rgba(50, 50, 93, .15), 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    position: relative;
+    font-size: 17px;
+    line-height: 40px;
+    box-flex: 1;
+    flex-grow: 1;
+    transform: scale(.95);
+    transform-origin: 100% 0;
+    opacity: 0;
+    will-change: transform, opacity;
+    transition-property: transform, opacity;
+    transition-duration: .25s;
+    overflow-y: scroll;
+
+    li {
+        align-items: center;
+        justify-content: flex-start;
+        margin-left: 0;
+        line-height: 25px;
+
+        & + li {
+            margin-left: 0;
+        }
+
+        a {
+            display: inline-block;
+            font-size: 17px;
+            line-height: 18px;
+        }
+    }
+    > li {
+        padding-top: $grid-gutter-width / 2;
+        padding-bottom: $grid-gutter-width / 2;
+        + li {
+            padding-top: $grid-gutter-width / 2;
+            border-top: 2px solid $baseBorderColor;
+        }
+    }
+    > li > a {
+        padding-left: $grid-gutter-width / 2;
+
+        + ul > li > a {
+            padding-left: $grid-gutter-width;
+        }
+    }
+}
+
+.mobile-menu-close {
+    position: absolute;
+    right: 14px;
+    top: 16px;
+    width: 32px;
+    height:32px;
+    font-size: 0;
+    cursor: pointer;
+
+    &:after, &:before {
+        content: "";
+        position: absolute;
+        background: $black;
+        border-radius: 1px;
+        left: auto;
+        right: 3px;
+        width: 74%;
+        top: 15px;
+        height: 3px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: background .1s;
+        transition: background .1s
+    }
+
+    &:after {
+        transform: rotate(-45deg)
+    }
+
+}

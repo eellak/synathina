@@ -1,0 +1,14 @@
+.logo {
+   width: 85px;
+   height: 85px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-position: center;
+//    box-shadow: -1px 2px 5px 1px #bbb;
+   &-athens {
+      background-image: url(../img/icons/athens_icon.jpg);
+   }
+   &-synathina {
+      background-image: url(../img/icons/synathina_icon.jpg);
+   }
+}

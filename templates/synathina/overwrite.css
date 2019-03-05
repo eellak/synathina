@@ -1,0 +1,12 @@
+.pagination > .active > a{
+	color:#fc8f0a;
+}
+
+.articles--videos{
+	opacity:1;
+	transition: opacity 0.3s ease;
+}
+
+.articles--videos-hidden{
+	opacity:0;
+}

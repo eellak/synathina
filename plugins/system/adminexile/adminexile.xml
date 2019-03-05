@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="system" method="upgrade">
+    <name>PLG_SYS_ADMINEXILE</name>
+    <author>Michael Richey</author>
+    <creationDate>Jan 2011</creationDate>
+    <copyright>Copyright (C) 2011 Michael Richey. All rights reserved.</copyright>
+    <license>GNU General Public License</license>
+    <authorEmail>adminexile@richeyweb.com</authorEmail>
+    <authorUrl>http://www.richeyweb.com</authorUrl>
+    <version>2.3.6</version>
+    <description>PLG_SYS_ADMINEXILE_XML_DESC</description>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <update> 
+        <schemas> 
+                <schemapath type="mysql">sql/updates</schemapath> 
+        </schemas> 
+    </update>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
+    <media folder="media" destination="plg_system_adminexile">
+        <file>admin.js</file>
+        <file>index.html</file>
+    </media>  
+    <files>
+        <folder>classes</folder>
+        <folder>fields</folder>
+        <folder>sql</folder>
+        <filename plugin="adminexile">adminexile.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_adminexile.ini</language>
+        <language tag="en-GB">en-GB.plg_system_adminexile.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params" addfieldpath="plugins/system/adminexile/fields">
+            <fieldset name="basic">
+                <field type="spacer" label="PLG_SYS_ADMINEXILE_BACKEND_LABEL" />
+                <field name="url" type="spacer" 
+                       label="PLG_SYS_ADMINEXILE_BACKEND_URL_LABEL" 
+                />
+                <field name="key" type="text" default="adminexile" 
+                       label="PLG_SYS_ADMINEXILE_KEY_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_KEY_DESC" 
+                       class="inputbox validate-notnumeric"
+                />
+                <field name="twofactor" type="radio" class="radio btn-group" 
+                       default="0" label="PLG_SYS_ADMINEXILE_KEYPAIR_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_KEYPAIR_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="keyvalue" type="text" default="ROCKS" 
+                       label="PLG_SYS_ADMINEXILE_KEYVALUE_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_KEYVALUE_DESC" 
+                       class="inputbox" 
+                />
+                <field name="tmpwhitelist" type="radio" class="radio btn-group" 
+                       default="0" label="PLG_SYS_ADMINEXILE_TMPWHITELIST_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_TMPWHITELIST_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="tmpperiod" type="text" class="tmpwhitelist" default="60" label="PLG_SYS_ADMINEXILE_TMPPERIOD_LABEL" description="PLG_SYS_ADMINEXILE_TMPPERIOD_DESC" />
+                <field name="redirect" type="text" default="{HOME}" label="PLG_SYS_ADMINEXILE_REDIRECT_LABEL" description="PLG_SYS_ADMINEXILE_REDIRECT_DESC" />
+                <field name="fourofour" type="textarea" default="&#60;!DOCTYPE HTML PUBLIC &#34;-//IETF//DTD HTML 2.0//EN&#34;&#62;&#13;&#10;&#60;html&#62;&#60;head&#62;&#13;&#10;&#60;title&#62;404 Not Found&#60;/title&#62;&#13;&#10;&#60;/head&#62;&#60;body&#62;&#13;&#10;&#60;h1&#62;Not Found&#60;/h1&#62;&#13;&#10;&#60;p&#62;The requested URL {url} was not found on this server.&#60;/p&#62;&#13;&#10;&#60;hr&#62;&#13;&#10;{serversignature}&#13;&#10;&#60;/body&#62;&#60;/html&#62;" filter="raw" label="PLG_SYS_ADMINEXILE_FOUROFOUR_LABEL" description="PLG_SYS_ADMINEXILE_FOUROFOUR_DESC" />
+                <field name="javascripts" type="javascript" label="" />
+            </fieldset>
+            <fieldset name="front">
+                <field type="spacer" label="PLG_SYS_ADMINEXILE_FRONTEND_LABEL" />
+                <field name="frontrestrict" type="radio" class="radio btn-group" default="0" label="PLG_SYS_ADMINEXILE_FRONTRESTRICT_LABEL" description="PLG_SYS_ADMINEXILE_FRONTRESTRICT_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field type="usergroup" name="restrictgroup" multiple="true" default="" label="PLG_SYS_ADMINEXILE_RESTRICTGROUP_LABEL" description="PLG_SYS_ADMINEXILE_RESTRICTGROUP_DESC"/>              
+            </fieldset>
+            <fieldset name="email">
+                <field type="spacer" label="PLG_SYS_ADMINEXILE_MAILLINK_SPACER" />
+                <field name="maillink" type="radio" class="radio btn-group" default="1" label="PLG_SYS_ADMINEXILE_MAILLINK_LABEL" description="PLG_SYS_ADMINEXILE_MAILLINK_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field type="usergroup" name="maillinkgroup" multiple="true" default="8" label="PLG_SYS_ADMINEXILE_MAILLINKGROUP_LABEL" description="PLG_SYS_ADMINEXILE_MAILLINKGROUP_DESC"/>
+            </fieldset>
+            <fieldset name="ip">
+                <field type="spacer" label="PLG_SYS_ADMINEXILE_IPSECURITY_SPACER" />
+                <field name="ipsecurity" type="radio" class="radio btn-group" default="0" label="PLG_SYS_ADMINEXILE_IPSECURITY_LABEL" description="PLG_SYS_ADMINEXILE_IPSECURITY_DESC">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field type="spacer" hr="true" />
+                <field type="blacklist"/>
+                <field type="spacer" hr="false" />
+                <field class="ipsecurity list" type="aetextarea" name="whitelist" 
+                       translate_default="true" 
+                       default="PLG_SYS_ADMINEXILE_DEFAULT_WHITELIST" 
+                       label="PLG_SYS_ADMINEXILE_WHITELIST_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_WHITELIST_DESC" 
+                />
+                <field type="spacer" hr="true" />
+                <field class="ipsecurity list" type="aetextarea" name="blacklist" 
+                       translate_default="true" 
+                       default="PLG_SYS_ADMINEXILE_DEFAULT_BLACKLIST" 
+                       label="PLG_SYS_ADMINEXILE_BLACKLIST_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_BLACKLIST_DESC" 
+                />
+                <field type="spacer" hr="true" />
+                <field class="ipsecurity radio btn-group" type="radio" 
+                       name="blemail" default="0" 
+                       label="PLG_SYS_ADMINEXILE_EMAIL_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_EMAIL_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>                    
+                </field>
+                <field class="ipsecurity radio btn-group" type="radio" 
+                       name="blemailonce" default="1" 
+                       label="PLG_SYS_ADMINEXILE_EMAILONCE_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_EMAILONCE_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>                    
+                </field>
+                <field name="blemailuser" type="user" class="blemail ipsecurity" 
+                       default="" label="PLG_SYS_ADMINEXILE_EMAILUSER_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_EMAILUSER_DESC" 
+                />
+            </fieldset>
+            <fieldset name="bruteforce">
+                <field type="spacer" label="PLG_SYS_ADMINEXILE_BRUTEFORCE_SPACER" />
+                <field name="bruteforce" type="radio" class="radio btn-group" 
+                       default="0" label="PLG_SYS_ADMINEXILE_BRUTEFORCE_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_BRUTEFORCE_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="bfmax" type="text" 
+                       class="validate-numeric bruteforce" 
+                       default="5" label="PLG_SYS_ADMINEXILE_BFMAX_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_BFMAX_DESC" 
+                />
+                <field name="bfpenalty" type="text" 
+                       class="validate-numeric bruteforce" 
+                       default="5" label="PLG_SYS_ADMINEXILE_BFPENALTY_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_BFPENALTY_DESC" 
+                />
+                <field name="bfpenaltymultiplier" type="text" 
+                       class="validate-numeric bruteforce" default="1" 
+                       label="PLG_SYS_ADMINEXILE_BFPENALTYMULTIPLIER_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_BFPENALTYMULTIPLIER_DESC" 
+                />
+                <field name="bfemail" type="radio" 
+                       class="radio btn-group bruteforce" 
+                       default="0" label="PLG_SYS_ADMINEXILE_EMAIL_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_EMAIL_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="bfemailonce" type="radio" 
+                       class="radio btn-group bruteforce" default="1" 
+                       label="PLG_SYS_ADMINEXILE_EMAILONCE_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_EMAILONCE_DESC"
+                >
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field name="bfemailuser" type="user" class="bfemail bruteforce" 
+                       default="" label="PLG_SYS_ADMINEXILE_EMAILUSER_LABEL" 
+                       description="PLG_SYS_ADMINEXILE_EMAILUSER_DESC" 
+                />
+                <field type="blocklist" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

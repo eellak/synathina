@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>bita diamerisma</name>
+		<Placemark>
+			<name>Leof. Andrea Siggrou ke Kratitos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.714862100000005,37.955224,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kratitos ke Prasnika</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.722933900000044,37.94878320000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Prasnika ke akrotiriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.724585700000038,37.9498986,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Akrotiriou ke vienna</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.725369600000022,37.95104259999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mpoumpoulinas ke Vienna</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.726536799999963,37.95271340000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mpoumpoulinas ke Grammou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72753549999993,37.95249520000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Grammou ke Athanasiou Diakou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72928760000002,37.9540746,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Papaflessa ke Athanasiou Diakou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.73047280000003,37.95377630000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eleftherias ke Dim. Andrea</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731120199999964,37.9545218,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Eleftherias ke Zefxidos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.733513000000016,37.9557614,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Zefxidos ke Filomilas</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.734060799999952,37.9551311,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Vouliagmenis ke Filomilas</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.735902399999986,37.9556695,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Vouliagmenis ke Chrisippoi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.735754000000043,37.9560035,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Chrisippoi ke Anaxarchou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.739837800000036,37.95631749999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ipirou ke Evaggelikis Scholis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.740112700000054,37.9556692,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Amfikratous ke Evaggelikis Scholis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74374769999997,37.95637809999999,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Amfikratous ke Erasinidou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.745294899999976,37.95583730000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alfionias ke Erasinidou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74568169999998,37.9569877,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alfionias ke Filonos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74692159999995,37.9566625,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dikearchou ke Filonos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.747704399999975,37.9573792,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Dikearchou ke Iliados</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74455940000007,37.9609056,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Iliados ke Ekfantidou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.750680200000033,37.9643926,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Nikiforidi ke Agiou Fanouriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.752252399999975,37.9642404,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ifikratous ke Nikiforidi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7529146,37.9642301,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Formionos ke Aritis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.755787800000007,37.96582990000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Formionos ke Iofontos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.750006799999937,37.972227,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Antinoros ke Iofontos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75024940000003,37.9735464,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rizari ke Antinoros</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74655740000003,37.9739115,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>rizari ke leof. Vasilissis Sofias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74580149999997,37.97588990000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Vasilissis Sofias ke Rigillis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.74329869999997,37.975365,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof Vasilissis Sofias ke Akadimias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.737588500000015,37.97599150000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Vouli</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7372279,37.9746672,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leoforos Vasilisis Amalias ke Othonos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7355599,37.97482160000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leof vasilisis amalias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7351894,37.9733986,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leof vasilisis amalias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7329364,37.970929,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leoforos Vasilisis Amalias ke Lisikratous</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731721900000025,37.9702802,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Andrea Siggrou ke Λεωφ. Βασιλίσσης Αμαλίας</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.731740400000035,37.9696299,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leoforos siggrou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7317026,37.9684593,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leoforos siggrou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7265849,37.9644331,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>leoforos syggrou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7203085,37.9595862,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Leof. Andrea Siggrou ke Kratitos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.714862100000005,37.955224,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

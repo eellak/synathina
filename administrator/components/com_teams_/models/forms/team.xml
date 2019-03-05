@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="team">		
+		<field 
+			name="main_info" 
+			type="note"
+			class="inputbox"
+			label="Main Info"
+			size="100"
+		/>		
+		<field 
+			name="name" 
+			type="text"
+			class="inputbox"
+			description="Name"
+			label="Name"
+			required="true"
+			size="100"
+		/>
+		<field name="alias" type="text" label="alias"
+			description="alias"
+			hint="alias"
+			size="40" />		
+		<field 
+			name="team_or_org" 
+			type="list"
+			class="inputbox"
+			description="Team or Organisation"
+			label="Team or Organisation"
+			size="1"
+			default="1">
+			<option	value="1">Team</option>
+			<option	value="2">Organisation</option>
+		</field>
+		<field 
+			name="team_type" 
+			type="list"
+			class="inputbox"
+			description="Team type (for Teams only)"
+			label="Team type"
+			size="1"
+			default="0">
+			<option	value="0">--choose type--</option>
+			<option	value="1">Type 1</option>
+			<option	value="2">Type 2</option>
+		</field>
+		<field 
+			name="org_donation" 
+			type="list"
+			class="inputbox"
+			description="Donation type (for Organisations only)"
+			label="Donation type"
+			size="1"
+			multiple="true"
+			default="0">
+			<option	value="1">Donation 1</option>
+			<option	value="2">Donation 2</option>
+		</field>		
+		<field 
+			name="email" 
+			type="text"
+			class="inputbox"
+			filter="raw"
+			description="Email"
+			label="Email"
+			required="true"
+			size="100"
+		/>		
+		<field 
+			name="description" 
+			type="editor"
+			class="inputbox"
+			filter="raw"
+			description="Description"
+			label="Description"
+			required="true"
+			size="100"
+		/>	
+		<field 
+			name="logo" 
+			type="media"
+			class="inputbox"
+			description="Logo"
+			label="Logo"
+			required="false"
+			size="100"
+		/>		
+		<field 
+			name="social" 
+			type="note"
+			class="inputbox"
+			label="Social Links"
+			size="100"
+		/>		
+		<field 
+			name="web_link" 
+			type="text"
+			class="inputbox"
+			description="Website url"
+			label="Website url"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="fb_link" 
+			type="text"
+			class="inputbox"
+			description="Facebook url"
+			label="Facebook url"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="tw_link" 
+			type="text"
+			class="inputbox"
+			description="Twitter link"
+			label="Twitter link"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="pn_link" 
+			type="text"
+			class="inputbox"
+			description="Pinterest link"
+			label="Pinterest link"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="in_link" 
+			type="text"
+			class="inputbox"
+			description="Linkedin link"
+			label="Linkedin link"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="go_link" 
+			type="text"
+			class="inputbox"
+			description="Google link"
+			label="Google link"
+			required="false"
+			size="100"
+		/>		
+		<field 
+			name="various_info" 
+			type="note"
+			class="inputbox"
+			label="Various Info"
+			size="100"
+		/>			
+		<field 
+			name="contact_1_name" 
+			type="text"
+			class="inputbox"
+			description="Contact Name 1"
+			label="Contact Name 1"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_1_email" 
+			type="text"
+			class="inputbox"
+			description="Contact Email 1"
+			label="Contact Email 1"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_1_phone" 
+			type="text"
+			class="inputbox"
+			description="Contact Phone 1"
+			label="Contact Phone 1"
+			required="true"
+			size="100"
+		/>	
+		<field 
+			name="contact_2_name" 
+			type="text"
+			class="inputbox"
+			description="Contact Name 2"
+			label="Contact Name 2"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_2_email" 
+			type="text"
+			class="inputbox"
+			description="Contact Email 2"
+			label="Contact Email 2"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_2_phone" 
+			type="text"
+			class="inputbox"
+			description="Contact Phone 2"
+			label="Contact Phone 2"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_3_name" 
+			type="text"
+			class="inputbox"
+			description="Contact Name 3"
+			label="Contact Name 3"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_3_email" 
+			type="text"
+			class="inputbox"
+			description="Contact Email 3"
+			label="Contact Email 3"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_3_phone" 
+			type="text"
+			class="inputbox"
+			description="Contact Phone 3"
+			label="Contact Phone 3"
+			required="false"
+			size="100"
+		/>		
+		<field
+			name="newsletter"
+			type="radio"
+			default="1"
+			class="btn-group"
+			label="Newsletter"
+			description="Newsletter" >
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>		
+		<field
+			name="published"
+			type="radio"
+			default="1"
+			class="btn-group"
+			label="Published"
+			description="Only if published will be shown at site" >
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="privacy"
+			type="radio"
+			default="0"
+			class="btn-group"
+			label="Private (for Organisations only)"
+			description="Private" >
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>		
+		<field
+			name="ordering"
+			type="hidden"
+			class="readonly"
+			label="ordering"
+			description ="ordering"
+			default="0"
+			readonly="true"
+		/>
+		
+		<field 
+			name="language" 
+			type="contentlanguage" 
+			label="Language"
+			description="In which lang will be shown" 
+			class="inputbox"
+			width="230"
+		>
+			<option value="*">All</option>
+		</field>
+		
+		<field
+			name="id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>		
+
+	</fieldset>
+</form>

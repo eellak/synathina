@@ -1,0 +1,64 @@
+
+$buttonColor: #000;
+
+.file-chooser {
+  position: relative;
+  display: inline-block;
+
+  .file-chooser-input {
+    background: white;
+    border: 1px solid gray;
+    border-right: none;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: inherit;
+    cursor: default;
+    padding-right: 100px;
+    white-space: pre;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  &:after {
+    content: 'ανέβασμα';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 4px 10px !important;
+    background: $black;
+    border: none;
+    border-radius: 0;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background .25s;
+    &:hover {
+      background: darken($buttonColor, 5%);
+    }
+  }
+  
+  .file-chooser-clear {
+    position: absolute;
+    right: 100px;
+    background: none;
+    border: none;
+    padding: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0;
+    transition: color .25s, opacity .25s;
+    &:after {
+      content: '\00D7';
+      font-size: 20px;
+    }
+    &:hover {
+      color: red;
+    }
+  }
+  &:hover .file-chooser-clear {
+    opacity: 1;
+  }
+  .file-chooser-hidden {
+    display: none;
+  }
+}

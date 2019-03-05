@@ -1,0 +1,14 @@
+.documents-list {}
+
+.documents-list-row {
+   margin-left: -5px;
+   margin-right: -5px;
+}
+.documents-list-item {
+   display: block;
+   padding: 5px 5px;
+}
+
+.documents-list .fill {
+   @include fill($padding-bottom: 112.017167%);
+}

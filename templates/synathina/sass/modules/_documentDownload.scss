@@ -1,0 +1,28 @@
+.document-download {
+    color: $gray-text;
+    h5,h3,h4 {
+      margin-top: 0;
+      margin-bottom: 10px;
+   }
+   .inline-list {
+      padding: 20px 0 10px 0;
+      background-color: $gray;
+      & > * {
+         margin: 0 20px;
+         text-align: center;
+      }
+   }
+   .fa {
+      font-size: 60px;
+   }
+   .doc-icon {
+      width: 64px;
+      height: 64px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: inline-block;
+      &--pdf {
+         background-image: url(../img/icons/adobe_pdf_icon.png);
+      }
+   }
+}

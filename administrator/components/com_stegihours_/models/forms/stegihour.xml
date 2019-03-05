@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="stegihour" addfieldpath="/administrator/components/com_stegihours/models/fields">
+
+		<field 
+			name="main_info" 
+			type="note"
+			class="inputbox"
+			label="Main Info"
+			size="100"
+		/>	
+		<field 
+			name="user_id" 
+			type="user"
+			class="inputbox"
+			label="User"
+			size="100"
+		/>	
+		<field 
+			name="create_stegihours" 
+			type="checkbox"
+			class="inputbox"
+			label="Create Stegihours?"
+			size="100"
+		/>
+		<field 
+			name="support_stegihours" 
+			type="checkbox"
+			class="inputbox"
+			label="Support Stegihours?"
+			size="100"
+		/>
+		<field 
+			name="legal_form" 
+			type="checkbox"
+			class="inputbox"
+			label="Legal Form?"
+			size="100"
+		/>	
+		<field 
+			name="profit" 
+			type="checkbox"
+			class="inputbox"
+			label="Profit?"
+			size="100"
+		/>			
+		<field 
+			name="name" 
+			type="text"
+			class="inputbox"
+			label="Name"
+			required="true"
+			size="100"
+		/>
+		<field name="alias" type="text" label="Alias"
+			hint="alias"
+			size="40" />		
+		<field 
+			name="stegihour_or_org" 
+			type="list"
+			class="inputbox"
+			label="Type"
+			size="1"
+			default="10">
+			<option	value="12">Επιχείρηση/Εταιρεία</option>
+			<option	value="10">Ομάδα πολιτών</option>
+			<option	value="11">Φορέας Οργανισμός</option>
+		</field>
+		<field 
+			name="profit_id" 
+			type="Typeedit"
+			class="inputbox"
+			label="Stegihour types"
+			size="1"
+			default="0" />		
+		<field 
+			name="profit_custom" 
+			type="text"
+			class="inputbox"
+			label="Other type"
+			size="100"
+		/>			
+		<field 
+			name="activities" 
+			type="Stegihouredit"
+			class="inputbox"
+			label="Activities"
+			size="2"
+			multiple="true"
+			default="0" />
+		<field 
+			name="org_donation" 
+			type="Donationedit"
+			class="inputbox"
+			label="Donation type"
+			size="2"
+			multiple="true"
+			default="-1" />		
+		<field 
+			name="donation_other_1" 
+			type="text"
+			class="inputbox"
+			label="Eidos donation"
+			size="100"
+		/>
+		<field 
+			name="donation_other_2" 
+			type="text"
+			class="inputbox"
+			label="Texnognwsia donation"
+			size="100"
+		/>		
+		
+		<field 
+			name="description" 
+			type="editor"
+			class="inputbox"
+			filter="raw"
+			label="Description"
+			required="true"
+			size="100"
+		/>	
+		<field 
+			name="logo" 
+			type="media"
+			class="inputbox"
+			label="Logo"
+			directory="stegihour_logos"
+			required="false"
+			size="100"
+		/>		
+		<field
+    name="gallery_upload"
+    type="media"
+		class="inputbox"
+		directory="stegihour_photos"
+    label="Gallery directory"
+		/>
+		<field
+    name="files_upload"
+    type="media"
+		class="inputbox"
+		directory="stegihour_files"
+    label="Files directory"
+		/>		
+		<field 
+			name="social" 
+			type="note"
+			class="inputbox"
+			label="Social Links"
+			size="100"
+		/>		
+		<field 
+			name="web_link" 
+			type="text"
+			class="inputbox"
+			label="Website url"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="fb_link" 
+			type="text"
+			class="inputbox"
+			label="Facebook url"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="tw_link" 
+			type="text"
+			class="inputbox"
+			label="Twitter link"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="pn_link" 
+			type="text"
+			class="inputbox"
+			label="Pinterest link"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="in_link" 
+			type="text"
+			class="inputbox"
+			label="Instagram link"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="go_link" 
+			type="text"
+			class="inputbox"
+			label="Google link"
+			required="false"
+			size="100"
+		/>	
+		<field 
+			name="li_link" 
+			type="text"
+			class="inputbox"
+			label="Linkedin link"
+			required="false"
+			size="100"
+		/>	
+		<field 
+			name="yt_link" 
+			type="text"
+			class="inputbox"
+			label="YouTube link"
+			required="false"
+			size="100"
+		/>			
+		<field 
+			name="various_info" 
+			type="note"
+			class="inputbox"
+			label="Various Info"
+			size="100"
+		/>			
+		<field 
+			name="contact_1_name" 
+			type="text"
+			class="inputbox"
+			label="Contact Name 1"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_1_email" 
+			type="text"
+			class="inputbox"
+			label="Contact Email 1"
+			required="true"
+			size="100"
+		/>
+		<field 
+			name="contact_1_phone" 
+			type="text"
+			class="inputbox"
+			label="Contact Phone 1"
+			required="true"
+			size="100"
+		/>	
+		<field 
+			name="contact_2_name" 
+			type="text"
+			class="inputbox"
+			label="Contact Name 2"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_2_email" 
+			type="text"
+			class="inputbox"
+			label="Contact Email 2"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_2_phone" 
+			type="text"
+			class="inputbox"
+			label="Contact Phone 2"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_3_name" 
+			type="text"
+			class="inputbox"
+			label="Contact Name 3"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_3_email" 
+			type="text"
+			class="inputbox"
+			label="Contact Email 3"
+			required="false"
+			size="100"
+		/>
+		<field 
+			name="contact_3_phone" 
+			type="text"
+			class="inputbox"
+			label="Contact Phone 3"
+			required="false"
+			size="100"
+		/>		
+		<field
+			name="newsletter"
+			type="radio"
+			default="1"
+			class="btn-group"
+			label="Newsletter">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>		
+		<field
+			name="published"
+			type="radio"
+			default="1"
+			class="btn-group"
+			label="Published">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="ordering"
+			type="hidden"
+			class="readonly"
+			label="ordering"
+			description ="ordering"
+			default="0"
+			readonly="true"
+		/>
+		
+		<field 
+			name="language" 
+			type="contentlanguage" 
+			label="Language"
+			class="inputbox"
+			width="230"
+		>
+			<option value="*">All</option>
+		</field>
+		
+		<field
+			name="id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="catid"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="asset_id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>		
+
+	</fieldset>
+</form>

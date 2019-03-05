@@ -1,0 +1,23 @@
+.l-press {
+   @extend .container;
+}
+.l-press {
+   .list-group-item {
+      border-left: 0;
+      border-right: 0;
+      background: transparent;
+      + .list-group-item {
+         margin-top: 10px;
+      }
+   }
+   .list-group-wrapper  {
+      max-width: 768px;
+      margin: auto;
+   }
+}
+
+.l-press {
+   .module--synathina {
+      background: #ececec !important;
+   }
+}

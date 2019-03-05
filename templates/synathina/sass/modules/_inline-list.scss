@@ -1,0 +1,107 @@
+.inline-list {
+   @include inline-list;
+}
+.inline-list--separated {
+   & > * {
+      &:after {
+         content : '|';
+         display: inline-block;
+         margin: 0 10px;
+      }
+      &:last-of-type {
+         &:after {
+            display: none;
+         }
+      }
+   }
+   &.thematiki--list {
+      & > * {
+         margin: 0 10px;
+         position: relative;;
+         &:after {
+            content : '';
+            position: absolute;
+            height: 86%;
+            width: 1px;
+            background-color: #5d5d5d;
+            right: -11px;
+            top: 0; bottom: 0;
+            left: auto;
+            margin: auto;
+         }
+      }
+   }
+}
+
+.inline-list--headlines {
+   li, a {
+      font-size: 22px;
+      font-weight: bold;
+   }
+   a {
+      text-decoration: underline;
+   }
+   & > li {
+      &:after {
+         color: #5d5d5d;
+      }
+      a {
+         color: $gray
+      }
+      &.selected, &:hover, &:focus {
+         a {
+            color: $coral;
+         }
+      }
+   }
+}
+.inline-list--socialmedia {
+   & > li {
+      & + li {
+         margin-left: 10px;
+      }
+      a {
+         color: #fff;
+         width: 53px;
+         height: 53px;
+         font-size: 40px;
+         display: table;
+         text-decoration: none !important;
+         & > i {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+         }
+         &.facebook {
+            background-color: #395a95;
+         }
+         &.twitter {
+            background-color: #29a4dd;
+         }
+         &.linkedin {
+            background-color: #027ab3;
+         }
+         &.instagram {
+            background-color: #026285;
+         }
+         &.youtube-icon {
+            background-image: url('../images/youtube-metro-icon.png') !important;
+         }
+      }
+   }
+   .inline-list__label {
+      color: $coral;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+   }
+   .fa-youtube:before {
+       content: "";
+   }
+}
+// colors
+.inline-list--orange {
+   li:after, a {
+      color: #f28e21;
+   }
+}

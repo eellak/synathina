@@ -1,0 +1,41 @@
+.breadcrumb {
+   text-align: right;
+   padding: 10px 0;
+   & + * {
+      margin-top: 20px;
+   }
+   & > .inline-list, ul {
+      & > * {
+         line-height: 14px;
+         vertical-align: middle;
+         &:after {
+            content : '>';
+            display: inline-block;
+            color: $gray-text;
+            font-weight: 400;
+            margin: 0 0 0 5px;
+         }
+         &:last-of-type {
+            &:after {
+               display: none;
+            }
+         }
+      }
+   }
+   color: $gray-text;
+   font-weight: 400;
+   font-style: italic;
+   li:last-of-type {
+      color: $orange;
+   }
+   a {
+      font-weight: 400;
+      color: $gray-text;
+      font-style: italic;
+   }
+}
+
+// types
+.breadcrumb--with-border {
+   border-bottom: 1px solid #dfdfdf;
+}

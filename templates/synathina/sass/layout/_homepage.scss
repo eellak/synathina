@@ -1,0 +1,97 @@
+.l-homepage {
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+}
+
+.l-homepage {
+   .cross {
+      position: absolute;
+      right: 5%;
+      bottom: 10%;
+   }
+   .time {
+      position : absolute;
+      right: calc(5% + 40px) !important;
+      bottom: 5% !important
+   }
+
+   .categories {
+       top: 20px;
+       left: 20px;
+       max-width:138px;
+       position: absolute;
+
+       @media (max-width: $screen-sm) {
+            display: none;
+        }
+   }
+
+   .synathina-map {
+       transform: translateZ(0);
+        -webkit-transition: 1s cubic-bezier(.19, 1, .22, 1) 0.4s;
+        transition: 1s cubic-bezier(.19, 1, .22, 1) 0.4;
+        will-change: transform;
+        -webkit-filter: blur(0);
+        filter: blur(0)
+   }
+
+   .synathina-map--blur {
+        opacity: 1;
+        -webkit-transform: scale(1.7);
+        transform: scale(1.7);
+        -webkit-filter: blur(2px);
+        filter: blur(2px)
+   }
+}
+
+.l-homepage__featured {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 80px;
+    transform: translateZ(0);
+    transform: translateY(0);
+    @include transition(transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86));
+    z-index: $zindex-homepage-featured;
+
+    &--up {
+        transform: translateY(-100%);
+        .feature-toggler-label.feature-toggler-label--hidden:hover, .feature-toggler-label.feature-toggler-label--hidden:focus {
+            opacity: 1;
+            @include transition-delay(0);
+        }
+    }
+
+    .is-relative {
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (min-width: 1024px) and (min-height: 1300px) {
+        max-height: 75vh;
+    }
+
+    @media (max-width: $screen-sm) {
+        bottom: 45px;
+        .feature-toggler-label {
+            padding-top: 18px;
+            font-size: 16px
+        }
+        .feature-toggler-arrow {
+            border-top: 14px solid #78B6E3;
+            border-left: 14px solid transparent;
+            border-right: 14px solid transparent;
+        }
+    }
+}
+
+.clip-circle {
+   -webkit-clip-path : circle(60px at center);
+   clip-path: circle(60px at center);
+   @include vertical-align;
+   width: 300px;
+   height: 300px;
+}

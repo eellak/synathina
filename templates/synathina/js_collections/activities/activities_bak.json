@@ -1,0 +1,51 @@
+{
+  "type" : "FeatureCollection",
+  "features" : [
+    {
+      "type": "Point",
+      "object_constructor" : "Activity",
+      "coordinates": [37.975759, 23.736976],
+      "id" : 0,
+      "category_id" : "",
+      "team_id" : "",
+      "sponsor_title" : "",
+      "slug" : "",
+      "title" : "Βουλή των Ελλήνων",
+      "date" : "",
+      "logo" : "",
+      "coverimg" : "",
+      "featured" : false
+    },
+    {
+      "type": "Point",
+      "object_constructor" : "Activity",
+      "coordinates": [37.968376, 23.7390553],
+      "id" : 1,
+      "category_id" : "",
+      "team_id" : "",
+      "sponsor_title" : "",
+      "slug" : "",
+      "title" : "Παναθηναϊκό Στάδιο",
+      "date" : "",
+      "logo" : "",
+      "coverimg" : "",
+      "featured" : false
+    },
+    {
+      "type": "Point",
+      "object_constructor" : "Activity",
+      "coordinates": [38.0019864, 23.7209089],
+      "id" : 2,
+      "category_id" : "",
+      "team_id" : "",
+      "sponsor_title" : "",
+      "slug" : "",
+      "title" : "Πλατεία Αμερικής",
+      "date" : "",
+      "logo" : "",
+      "coverimg" : "",
+      "featured" : false
+    }        
+  ]
+  
+}

@@ -1,0 +1,67 @@
+.list-group {
+   padding-bottom: 20px;
+}
+a.list-item-title {
+   &:hover {
+      color: #78b7e3;
+   }
+}
+.list-group-item {
+   position: relative;
+   display: block;
+   padding: 10px 15px;
+   margin-bottom: -1px;
+   background-color: #fff;
+   //border: 1px solid #ddd;
+   time {
+      font-size: 16px;
+      color: $orange;
+      font-weight: bold;
+      + * {
+         margin-left: 15px;
+      }
+   }
+   .list-item-title  {
+      font-size: 16px;
+      font-weight: bold;
+      color: #5d5d5d;
+      .fa {
+         padding-left: 20px;
+         font-size: 20px;
+      }
+   }
+   .list-group-wrapper {
+      margin: auto;
+      max-width: 768px;
+   }
+}
+
+
+.list-group--draseis {
+   .list-group-item {
+      padding: 20px;
+      font-size: 15px;
+      background-color: #ededed;
+      + .list-group-item {
+         border-top: 1px solid #bdbdbd;
+      }
+   }
+   .list-group-item-title {
+        font-size: 24px;
+        font-family: "Roboto";
+        color: rgb(120,183,227);
+        font-weight: bold;
+        line-height: 1.125;
+        margin: 0;
+        &--subtitle {
+           font-size: 18px;
+        }
+   }
+
+   .gallery {
+      .caption {
+         margin-top: 20px;
+      }
+   }
+
+}

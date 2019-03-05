@@ -1,0 +1,11 @@
+
+$zIndex-cross: 90;
+$zIndex-categories: 100;
+
+.c-google-map .categories {
+    z-index: $zIndex-categories;
+}
+
+.c-google-map .cross {
+    z-index: $zIndex-cross;
+}

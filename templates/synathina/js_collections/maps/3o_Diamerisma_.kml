@@ -1,0 +1,505 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>3ο Διαμέρισμα</name>
+		<Placemark>
+			<name>petrou ralli kai ag.annis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6852575,37.9763079,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>annis k salaminias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6869097,37.9784222,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ag.annis kai orfews</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6898279,37.9812129,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>annis k mikeli</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6912441,37.9832594,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>annis k polikarpou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6935401,37.9859654,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ag.annis k iera odo</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6944413,37.9875382,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>markoni</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6975527,37.99301740000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>markoni 2</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6983037,37.9931358,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>markoni k lewf.athinwn</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6984754,37.9934571,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>athinwn kai mitrodorou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7064683,37.9881766,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>mitrodwrou k serrwn</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.707552,37.988536,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>serrwn k nafpliou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7090057,37.9872,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>serrwn k palamidiou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7110683,37.9862233,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>serrwn k alikarnasou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7120339,37.9858047,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>alikarnasou k monastiriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7130049,37.9862275,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>monastiriou k keratsiniou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7133536,37.9857202,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>keratsiniou k lenorman</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7176371,37.9876143,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>lenorman k odissews</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7192142,37.9852001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>lenorman k kwstantinoupolews</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7180448,37.9868617,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>lenorman k popliou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7187797,37.9858766,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>kolokinthous k axilews</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7193161,37.984828,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>kolokinthous k peiraiws</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7217977,37.9813217,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>peiraiws k millerou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7206876,37.9808403,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>plateia eleutherias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7212795,37.9801136,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>pl.eleutherias k dipilou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7215155,37.97964,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>kriezi k topazi</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7218106,37.9792679,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>topazi k lewkoriou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7211108,37.9787029,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>lewkoriou k sarri</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7214581,37.9782068,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>sarri k ogigou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721967600000003,37.9786177,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ogigou k lepeniotou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.722423100000004,37.9782904,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>lepeniwtou k ivis</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7220236,37.9780531,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ivis k nau.apostoli</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7225993,37.9775876,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>lewkoriou k n.apostoli</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7221807,37.9773355,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ermou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.722166,37.9772097,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ermou k thisiou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7222867,37.9771832,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>thiseiou k astigos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7223738,37.9770247,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>thiseiou k andrianou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.721773000000002,37.976494,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>apos.pavl. k ag.marinas</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7200794,37.9740573,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>thewrias</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7251978,37.97274000000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>thewrias2</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.727116,37.9728742,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>stratonos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7281513,37.972332900000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>stratonos2</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7286985,37.9720285,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>trasivoulou k d.aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7293421,37.9694323,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>aeropag. k parthenwnos</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7249863,37.9698887,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>aeropagitou</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7224221,37.9702185,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>gali</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7224543,37.9699521,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 47</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7235916,37.969516500000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 48</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.72379,37.9673512,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 49</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7213607,37.9655135,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 50</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7181199,37.9649977,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 51</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7181038,37.9647736,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 52</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7172294,37.9648285,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 53</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7153702,37.9663283,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 54</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7153652,37.9667084,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 55</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7144041,37.96671920000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 56</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7130501,37.9650724,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 57</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7145203,37.964615,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 58</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7138632,37.9641667,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 59</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.708689200000002,37.9635027,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 60</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.706243,37.9647376,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 61</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6996126,37.9688314,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 62</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7059426,37.9724344,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 63</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.704247500000005,37.9737877,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 64</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7056422,37.9751577,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point 65</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.6951923,37.9757667,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

@@ -1,0 +1,235 @@
+.l-header {
+    @include display-grid;
+    padding-right: $grid-gutter-width / 2;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    align-content: center;
+    padding-bottom: $grid-gutter-width / 2 ;
+    z-index: $zindex-navbar;
+
+    @media(min-width: $screen-md) {
+        grid-template-areas: "logo nav actions";
+    }
+    @media(min-width: $screen-md) and (max-width: $screen-lg) {
+        .menu a {
+            font-size: 14px;
+        }
+        .account-actions a {
+            font-size: 13px;
+        }
+    }
+    // mobile
+    @media (max-width: $screen-md) {
+        grid-template-rows: minmax(30px, 80px) 1fr;
+        grid-template-columns: auto 1fr minmax(40px, auto);
+        grid-template-areas: "logo actions hamburger"
+                             "nav nav nav";
+        padding-right: 0;
+    }
+
+    @media (max-width: $screen-xs) {
+        grid-template-rows: minmax(30px, 50px) 1fr;
+    }
+    @include transition(box-shadow 0.3s ease);
+
+    border-bottom: 2px solid $navBorderColor;
+}
+
+.l-header__logo {
+    padding-top: $grid-gutter-width / 2;
+    grid-area: logo;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    @media (max-width: $screen-md) {
+        padding-top: 0;
+    }
+}
+
+.l-header__nav {
+    padding-top: $grid-gutter-width / 2;
+    grid-area: nav;
+    display: grid;
+    grid-row: span 2;
+    grid-area: nav;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:  "logonew"
+                          "menu";
+    @media (max-width: $screen-md) {
+        grid-template-rows: 1fr;
+        grid-template-areas: "logonew";
+        padding-top: 0;
+    }
+    align-content: center;
+    justify-content: end;
+    height: 100%;
+
+    &__logo {
+        grid-area: logonew;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: $screen-md) {
+            max-width: 300px;
+            place-self: center;
+        }
+
+        @media (max-width: $screen-xs) {
+            max-width: 260px;
+            place-self: center;
+        }
+    }
+
+    &__menu {
+        margin-top: $grid-gutter-width / 2;
+        grid-area: menu;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media (max-width: $screen-md) {
+            display: none;
+        }
+        &.menu--inline > li + li {
+            margin-left: 0
+        }
+        &.menu--inline > li > a {
+            padding: 0  $grid-gutter-width / 3.6 $grid-gutter-width / 2;
+
+            @media (min-width: 1360px) {
+                padding: 0  $grid-gutter-width / 2 $grid-gutter-width / 2;
+
+            }
+
+            @media (min-width: $screen-lg) and (max-width: 1360px) {
+                padding: 0  $grid-gutter-width / 3 $grid-gutter-width / 2;
+                font-size: 16px;
+            }
+
+        }
+
+
+
+        &.menu--vertical {
+            @media (min-width: 1360px) {
+                padding: 0  $grid-gutter-width / 2 $grid-gutter-width / 2;
+
+            }
+
+            @media (min-width: $screen-lg) and (max-width: 1360px) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    &__actions {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.l-header__actions {
+    padding-top: $grid-gutter-width / 2;
+    grid-area: actions;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    align-content: space-between;
+    justify-content: space-between;
+
+    .synathina-actions.menu > li > a {
+        @media (min-width: $screen-lg) and (max-width: 1360px) {
+            font-size: 16px;
+        }
+    }
+    @media (min-width: $screen-xs) and (max-width: $screen-md) {
+        justify-content: end;
+        flex-direction: column;
+        li {
+            line-height: 0px;
+        }
+        padding-top: 10px;
+        .i18n-actions a, .account-actions a {
+            line-height: 24px;
+            &:after {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    @media (max-width: $screen-xs) {
+        justify-content: end;
+        flex-direction: column;
+        li {
+            line-height: 0px;
+            &:after {
+                margin: 0 10px;
+            }
+        }
+        padding-top: 10px;
+        .i18n-actions a, .account-actions a {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    }
+
+    @media (max-width: $screen-xs) {
+        padding-top: 10px;
+    }
+
+    .synathina-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        @media (max-width: $screen-md) {
+            display: none;
+            .i18n-actions a, .account-actions a {
+                font-size: 12px;
+            }
+        }
+
+        @media (min-width: $screen-lg) and (max-width: 1360px) {
+            .menu a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.l-header__hambuger {
+    grid-area: hamburger;
+    display: flex;
+    justify-content: center;
+    // mobile
+    @media (min-width: $screen-md) {
+        display: none;
+    }
+
+    @media (min-width: $screen-xs) and (max-width: $screen-md) {
+        .hamburger-inner {
+            margin-top: 6px
+        }
+    }
+
+    @media (max-width: $screen-xs) {
+        .hamburger-inner {
+            margin-top: -2px
+        }
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        position: relative;
+        top: 10px;
+        padding-right: 15px;
+    }
+}
+
+

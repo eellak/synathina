@@ -1,0 +1,3 @@
+- orange border when de-select checkbox
+- validation checks
+- calendar with hours support

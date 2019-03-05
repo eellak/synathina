@@ -1,0 +1,47 @@
+$border-color: #dfdfdf;
+.thumbnail {
+   h3 {
+
+   }
+   time {
+
+   }
+   p {
+      font-size:  21px;
+   }
+   .caption-more {
+      color: $color-more;
+      font-weight: bold;
+      font-size: 21px;
+      line-height: 21px;
+      display: inline-block;
+      &:focus {
+         color: $color-more;
+      }
+   }
+}
+.thumbnail > .fill {
+   @include fill();
+}
+.thumbnail-list {
+   @include clearfix;
+   position: relative;
+
+   &:before{
+      display: block;
+      width: calc(100% - 80px);
+      content: '';
+      height: 1px;
+      margin: auto;
+      background: $border-color;
+   }
+}
+
+.thumbnail-list__title {
+   margin: 32px 0;
+   color: #78b7e3;
+   font-size: 32px;
+   font-weight: 300;
+   line-height: 32px;
+   @include make-xs-column(12, 80px);
+}

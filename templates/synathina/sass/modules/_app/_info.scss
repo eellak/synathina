@@ -1,0 +1,121 @@
+.info {
+   width: 100%;
+   padding: 15px 20px 0;
+   background-color: #fff;
+   color: #5d5d5d;
+   position: relative;
+
+  &:before {
+   // /@include skew-side(6.4deg);
+   //top: 9%;
+   left: 0;
+  }
+  a {
+   color: #78b7e3 !important;
+   font-weight: bold;
+  }
+}
+
+.info-title {
+  font-size: 15.479px;
+  font-family: "Roboto";
+  color: #78b7e3;
+  font-weight: bold;
+}
+
+.info-meta {
+  font-size: 12.747px;
+  font-family: "Roboto";
+
+  font-weight: 500;
+}
+.info-source {
+   font-style: italic;
+   font-size: 12.747px;
+}
+.info-img {
+   max-height: 150px;
+   overflow: auto;
+   img {
+      @include img-responsive;
+   }
+   margin-top: 5px;
+}
+
+.info-description {
+   margin-top: 5px;
+  font-size: 12.747px;
+  font-family: "Roboto";
+  font-weight: 500;
+  a {
+   color: #78b7e3 !important;
+   font-weight: bold;
+   font-style: italic;
+  }
+}
+
+.info-badge {
+   @include clearfix;
+   margin-top: 20px;
+
+   &-item {
+      float: left;
+      + .info-badge-item {
+         margin-left: 5px;
+      }
+
+      border-bottom: 0;
+      width: 19.047619%;
+      position: relative;
+      background-color: #ccc;
+      //box-shadow: 1px -1px 0px #5d5d5d, -1px -1px 0px #5d5d5d;
+      //@include skew($side: top, $bg: #fff, $deg: 6.4deg, $top: 12%, $bottom: auto, $width: 100%, $height: 100%);
+      &:before {
+         background-color: #ccc;
+         //width: calc(100% - 20px);
+      }
+      &:nth-of-type(2){
+         &:before {
+            //height: 111.5%;
+         }
+      }
+      &:nth-of-type(3){
+         &:before {
+          // height: 123%;
+         }
+      }
+      .fill {
+         @include fill($padding-bottom: 100%);
+      }
+   }
+}
+
+
+// Google Map container
+.gm-style .gm-style-iw {
+  overflow: visible !important;
+}
+.gm-style-iw{
+  @include skew($side: top, $bg: #fff, $deg: 6.4deg, $top: 11%, $bottom: 0%, $width: auto, $height: 100%);
+  //box-shadow: 0 0 1px 1px #000;
+  &:before {
+    width: calc(100% - 23px) !important;
+    box-shadow: 0px 10px 20px -2px #5d5d5d;
+  }
+}
+.gm-style-iw > div {
+  box-shadow: 0px -10px 10px -10px #5d5d5d, 10px -10px 10px -10px #5d5d5d;
+}
+#iw-container {
+}
+#iw-container .iw-title {
+  font-family: 'Roboto', sans-serif;
+}
+#iw-container .iw-content {
+}
+.iw-content img {
+}
+.iw-subTitle {
+}
+.iw-bottom-gradient {
+}

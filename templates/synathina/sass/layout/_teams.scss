@@ -1,0 +1,110 @@
+.l-team {}
+.l-teams--article {
+   @extend  .container;
+}
+
+.l-teams--article {
+   .edit-zone {
+      text-align: right;
+      a {
+         float: none !important;
+         display: inline-block;
+         height: 20px;
+         font-size: 32px;
+         padding-right: 10px;
+         color: #5d5d5d;
+      }
+   }
+    .module--synathina:nth-child(even) .module-skewed{
+      background: #fff !important;
+   }
+   .module--synathina:nth-child(odd) .module-skewed{
+      background: #ececec !important;
+   }
+   & > * + * {
+      margin-top: 42px;
+   }
+
+   .module--synathina {
+      .media-left {
+         padding: 20px 40px 40px;
+      }
+      .media {
+         @media(max-width: $screen-sm){
+            width: 100%;
+            display: block;
+            padding: 0 20px;
+         }
+         .media-left {
+            @media(max-width: $screen-sm){
+               width: 100%;
+               display: block;
+            }
+         }
+         .media-heading {
+            margin-top: 40px;
+            font-size: 32px;
+            color: $orange;
+            font-weight: 500;
+            margin-bottom: 20px;
+         }
+      }
+      .dl-horizontal {
+         & > * {
+            display: inline-block;
+         }
+         & > dd {
+            margin-left: 10px;
+            & > a {
+               font-size: 16px;
+            }
+         }
+      }
+   }
+
+   .module-skewed:before{
+      bottom: -9%;
+   }
+   .mail-to{
+      font-size: 16px;
+      font-weight: bold;
+   }
+   .module--synathina {
+      margin-top: 100px;
+      margin-bottom: 100px;
+   }
+}
+
+.thematiki-icon {
+   width: 45px;
+   height: 35px;
+   &--perivallon {
+
+   }
+}
+
+.l-teams--listing {
+   @extend  .container;
+   
+   .module-title--layout {
+      color: $orange;
+      margin-top: 60px;
+      margin-bottom: 0;
+   }
+   .filters {
+      margin: 10px 0 0 0;
+      .filter-checkbox .form-group {
+         display: inline-block;
+         float: none;
+         text-align: center;
+         margin: 10px 5px;
+         + .form-group {
+            margin-bottom: 10px;
+         }
+      }
+      + .module--synathina {
+         margin-top: 0px;
+      }
+   }
+
+}

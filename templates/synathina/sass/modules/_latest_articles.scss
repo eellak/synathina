@@ -1,0 +1,52 @@
+.latest-articles {
+   //:DEV
+   width: 100%;;
+   color: #000;
+   text-align: center;
+   & > * {
+      @include clearfix;
+      &:last-of-type, &.skewed{
+         position: relative;
+
+         @include skew2($side: bottom, $bg: #fff, $deg: 2deg, $top: auto, $bottom: -20px, $width: 100%, $height: 40px);
+
+         &:before {
+            background-color: inherit;
+            z-index: -1;
+            @media(min-width: $screen-sm){
+               z-index: auto !important;
+            }
+         }
+      }
+
+   }
+   .media-left {
+      width: 25%;
+      time {
+         display: block;
+         text-align: center;
+      }
+      vertical-align: middle;
+   }
+   .media-body {
+      width: 25%;
+      vertical-align: top;
+      padding: 10px 0;
+      text-align: left;
+   }
+   .media-title {
+
+   }
+   .media-img {
+      vertical-align: top;
+      .fill {
+         @include fill($padding-bottom:26.666667%);
+      }
+      img {
+         @include img-responsive;
+      }
+   }
+   .media:nth-child(odd){
+      background-color: #ececec;
+   }
+}

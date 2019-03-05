@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>7ο Διαμέρισμα</name>
+		<Placemark>
+			<name>Σημείο 1</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7613678,37.9802235,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 2</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.758707,37.9801728,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 3</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.75669,37.9792679,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 4</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7560457,37.9800517,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 5</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.754850000000005,37.9807816,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 6</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7552162,37.981232,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 7</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7526345,37.9830987,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 8</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7522912,37.9831347,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 9</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7514576,37.9833284,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 10</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7519884,37.9852805,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 11</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7514033,37.98615050000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 12</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7483551,37.9866985,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 13</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7459719,37.9855764,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 14</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7428391,37.9894471,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 15</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7424666,37.989765,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 16</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7418991,37.9893326,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 17</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7417126,37.989168,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 18</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7407735,37.9886797,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 19</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7397975,37.9898551,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 20</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7399695,37.9903319,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 21</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7397358,37.9904068,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 22</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.740283,37.9924086,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 23</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7406075,37.9925777,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 24</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7411654,37.9926707,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 25</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.743,37.9933979,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 26</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7443197,37.9932372,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 27</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7447166,37.9936346,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 28</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7465084,37.9954863,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 29</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7474096,37.99533410000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 30</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7476885,37.9952242,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 31</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7481606,37.9959513,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 32</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7465298,37.9966615,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 33</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7459719,37.9969405,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 34</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7491262,37.9992909,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 35</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7501132,37.999274,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 36</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7503922,37.9996376,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 37</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7503922,38.0003139,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 38</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7504888,38.0010748,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 39</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7514222,38.0016412,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 40</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.751862000000003,38.001692,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 41</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7517977,38.0029939,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 42</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7524629,38.0039069,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 43</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7531281,38.0051074,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 44</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.754222400000003,38.0056823,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 45</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7550592,38.0057034,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 46</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7559175,38.0056653,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 47</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7578487,38.0049383,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 48</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7594366,38.0037717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 49</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7614107,38.0034166,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 50</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7624621,38.0038393,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 51</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7692642,37.9981411,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 52</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7720752,38.0001702,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 53</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7750256,38.0007197,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 54</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.777900900000002,37.9986484,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 55</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.778255,37.9980312,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 56</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7823212,38.0034166,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 57</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7870741,38.001041,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 58</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.783812500000003,37.9985976,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 59</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7904644,37.9924932,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 60</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7908936,37.9910727,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 61</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7889194,37.990244,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 62</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7874174,37.9910388,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 63</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7851644,37.9900073,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 64</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7851644,37.9892293,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 65</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7854862,37.9883838,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 66</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7811518,37.9862444,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 67</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7828469,37.9839697,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 68</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7806797,37.9824814,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 69</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7772465,37.9846462,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 70</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7741995,37.9868955,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Σημείο 71</name>
+			<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+			<Point>
+				<coordinates>23.7687278,37.98353,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

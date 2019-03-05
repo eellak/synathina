@@ -1,0 +1,22 @@
+@import "_variables";
+@import "_mixins";
+
+// Reset and dependencies
+@import "_normalize";
+
+// Core CSS
+@import "_grid";
+@import "alerts";
+@import "close";
+//@import "positions";
+
+// Utilities
+@import '_utilities';
+
+// Vendor CSS
+@import 'vendor/font-awesome';
+@import 'vendor/slick';
+@import 'vendor/magnific-popup';
+
+// vendor jquery ui
+// @import 'vendor/jquery.ui';

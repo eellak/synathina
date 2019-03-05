@@ -1,0 +1,26 @@
+.l-register {
+   @extend .container;
+   padding-bottom: 200px;
+	label, .filters label {
+		line-height: 20px !important;
+	}
+   .register {
+   		@extend .module__forms;
+
+   }
+}
+.l-register .register .l-fg6  .form-group--upload {
+   margin-left: 0 !important;
+}
+
+.l-register .filters .form-group--floated {
+  @include clearfix();
+  & > input {
+    float: left;
+  }
+  & > label {
+    float: right;
+    margin-left: 5px;
+    line-height: 32px !important;
+  }  
+}

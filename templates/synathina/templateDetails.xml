@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Core 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>Synathina</name>
+	<version>1.0</version>
+	<creationDate>3/28/2016</creationDate>
+	<author>ddasios</author>
+	<authorEmail>ddasios@steficon.gr</authorEmail>
+	<copyright>Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.</copyright>
+	<description>TPL_SYNATHINA_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	<positions>
+		<position>languages</position>
+		<position>usermenu</position>
+		<position>mainmenu</position>
+		<position>mobilemenu</position>
+		<position>topmenu</position>
+		<position>footermenu</position>
+		<position>login</position>
+		<position>registration</position>
+		<position>languages</position>
+		<position>links</position>
+		<position>banner</position>
+		<position>teams</position>
+		<position>actions_text</position>
+		<position>top_text</position>
+		<position>breadcumbs</position>
+		<position>articles</position>
+		<position>stegi</position>
+		<position>toolkits</position>
+		<position>slider</position>
+		<position>opencall</position>
+		<position>video-overlay</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_synathina.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_synathina.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="templateColor" class="" type="color" default="#08C"
+					label="TPL_SYNATHINA_COLOR_LABEL"
+					description="TPL_SYNATHINA_COLOR_DESC" />
+
+				<field name="templateBackgroundColor" class="" type="color" default="#F4F6F7"
+					label="TPL_SYNATHINA_BACKGROUND_COLOR_LABEL"
+					description="TPL_SYNATHINA_BACKGROUND_COLOR_DESC" />
+
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_SYNATHINA_LOGO_LABEL"
+					description="TPL_SYNATHINA_LOGO_DESC" />
+
+				<field name="sitetitle"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="string" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="string" />
+
+				<field name="googleFont"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="1"
+					label="TPL_SYNATHINA_FONT_LABEL"
+					description="TPL_SYNATHINA_FONT_DESC"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="googleFontName" class="" type="text" default="Open+Sans"
+					label="TPL_SYNATHINA_FONT_NAME_LABEL"
+					description="TPL_SYNATHINA_FONT_NAME_DESC" />
+
+				<field name="fluidContainer"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="TPL_SYNATHINA_FLUID_LABEL"
+					description="TPL_SYNATHINA_FLUID_DESC"
+				>
+					<option value="1">TPL_SYNATHINA_FLUID</option>
+					<option value="0">TPL_SYNATHINA_STATIC</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

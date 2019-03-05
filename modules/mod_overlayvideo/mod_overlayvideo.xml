@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+
+    <name>Video Overlay PopUp</name>
+
+    <creationDate>March 2017</creationDate>
+
+    <author>Nikos Prodro</author>
+
+    <copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved</copyright>
+
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+
+    <authorEmail>info@steficon.gr</authorEmail>
+
+    <authorUrl>http://www.steficon.gr</authorUrl>
+
+    <version>1.0.0</version>
+
+    <description>A single article or video to be shown as a banner in the homepage</description>
+
+    <files>
+        <filename module="mod_overlayvideo">mod_overlayvideo.php</filename>
+        <folder>tmpl</folder>
+        <filename>helper.php</filename>
+    </files>
+
+    <languages>
+    </languages>
+
+    <config>
+
+        <fields name="params">
+
+            <fieldset name="basic" label="GLOBALSETTING">
+                <field
+                        name="header_text"
+                        type="text"
+                        extension="com_content"
+                        size="10"
+                        default=""
+                        label="Header"
+                        description="Header text to be shown over the article title"
+                >
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+                <field
+                        name="subtitle_text"
+                        type="text"
+                        extension="com_content"
+                        size="10"
+                        default=""
+                        label="Subtitle"
+                        description="A Subtitle to be shown under the article title"
+                >
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+                <field
+                        name="intro_text"
+                        type="textarea"
+                        default="default"
+                        label="Paragraph"
+                        description="A paragraph to show as intro text"
+                        rows="10"
+                        cols="5" >
+
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+                <field
+                    name="article_id"
+                    type="text"
+                    extension="com_content"
+                    size="10"
+                    default=""
+                    label="Article"
+                    description="The ID of the article to link too"
+                >
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+                <field
+                        name="video_code"
+                        type="text"
+                        extension="com_content"
+                        size="10"
+                        default=""
+                        label="Video code"
+                        description="The youtube video to display (once this field is set the article above will be ignored)"
+                >
+                    <option value="">JOPTION_ALL_CATEGORIES</option>
+                </field>
+            </fieldset>
+
+            <fieldset name="advanced">
+
+            </fieldset>
+
+        </fields>
+
+    </config>
+
+</extension>
+

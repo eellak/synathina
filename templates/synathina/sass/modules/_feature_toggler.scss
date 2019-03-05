@@ -1,0 +1,42 @@
+.feature-toggler {
+    background: #78B6E3;
+    height: 5px;
+    position: relative;
+}
+
+.feature-toggler-arrow {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #78B6E3;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.feature-toggler-label {
+    cursor: pointer;
+    position: absolute;
+    left: auto;
+    right: auto;
+    top: 0px;
+    bottom: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: #78B6E3;
+    font-weight: 500;
+    padding-top: 30px;
+    @include transition(opacity .225s ease);
+    @include horizontal-centerer;
+    // @include transition-delay(500ms);
+    opacity: 1;
+
+    &.feature-toggler-label--hidden {
+        opacity: 0;
+    }
+}

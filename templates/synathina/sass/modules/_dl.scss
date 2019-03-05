@@ -1,0 +1,26 @@
+.dl-horizontal {
+   margin: 0;
+   padding: 8px 0;
+   border-bottom: 1px solid #c6c6c6;
+   color: #5d5d5d;
+   & > * {
+      display: inline-block;
+   }
+   dl {
+
+   }
+   dt {
+      font-size: 16px;
+      font-weight: bold;
+   }
+   a {
+      &[mailto]{
+         color: #78b7e3;
+      }
+   }
+   dt > a {
+      text-decoration: underline;
+      font-size: 16px;
+      font-weight: bold;
+   }
+}

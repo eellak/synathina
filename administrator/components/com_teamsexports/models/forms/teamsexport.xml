@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="teamsexport" addfieldpath="/administrator/components/com_teamsexports/models/fields">
+
+		<field 
+			name="team_id" 
+			type="Teamedit"
+			class="inputbox"
+			required="true"
+			label="Team"
+			size="1"
+			default="0" />	
+		<field 
+			name="name" 
+			type="text"
+			class="inputbox"
+			label="Name"
+			size="100"
+		/>
+		<field name="alias" type="text" label="Alias"
+			hint="alias"
+			size="40" />		
+		<field 
+			name="date_start" 
+			type="calendar"
+			class="inputbox"
+			label="Date Start"
+			required="true"
+			size="1"
+			default="0"
+			format="%Y-%m-%d %H:%M" />	
+		<field 
+			name="date_end" 
+			type="calendar"
+			class="inputbox"
+			label="Date End"
+			required="true"
+			size="1"
+			default="0"
+			format="%Y-%m-%d %H:%M"	/>				
+		
+		<field 
+			name="description" 
+			type="textarea"
+			class="inputbox"
+			filter="raw"
+			label="Description"
+			required="true"
+			size="100"
+		/>	
+		<field
+			name="published"
+			type="radio"
+			default="1"
+			class="btn-group"
+			label="Published">
+			<option value="0">JNO</option>
+			<option value="1">JYES</option>
+		</field>
+		<field
+			name="ordering"
+			type="hidden"
+			class="readonly"
+			label="ordering"
+			description ="ordering"
+			default="0"
+			readonly="true"
+		/>
+		
+		<field 
+			name="language" 
+			type="contentlanguage" 
+			label="Language"
+			class="inputbox"
+			width="230"
+		>
+			<option value="*">All</option>
+		</field>
+		
+		<field
+			name="id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="catid"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>
+
+		<field
+			name="asset_id"
+			type="hidden"
+			class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description ="JGLOBAL_FIELD_ID_DESC"
+			default="0"
+			readonly="true"
+		/>		
+
+	</fieldset>
+</form>

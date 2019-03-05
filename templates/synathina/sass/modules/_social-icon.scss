@@ -1,0 +1,36 @@
+.social-icons {
+   margin: 20px 0;
+   text-align: center;
+   & > * {
+      line-height: 32px;
+   }
+   .fa {
+      font-size: 20px;
+      width: 32px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      color: #FFF;
+      color: rgba(255, 255, 255, 0.8);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+         color: rgba(255, 255, 255, 1);
+      }
+   }
+   .fa-facebook {
+      background-color: #3C599F;
+   }
+   .fa-twitter {
+      background-color: #32CCFE
+   }
+   .fa-linkedin {
+      background-color: #0085AE;
+   }
+   .fa-google-plus {
+      background-color: #c93730;
+   }
+}

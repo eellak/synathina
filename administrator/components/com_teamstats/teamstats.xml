@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>Teamstats</name>
+	<author>Steficon Core! Project</author>
+	<creationDate>July</creationDate>
+	<copyright>(C) 2005 - 2015 Open Source 2015 ters. All rights reserved.
+	</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@steficon.gr</authorEmail>
+	<authorUrl>www.steficon.gr</authorUrl>
+	<version>3.0.0</version>
+	<description>Teamstats Component</description>
+
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<files folder="site">
+		<filename>teamstats.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>metadata.xml</filename>
+		<filename>router.php</filename>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	<languages folder="site"></languages>
+
+	<administration>
+		<menu img="class:teamstats">Teamstats</menu>
+		<submenu>
+			<!--
+				Note that all & must be escaped to &amp; for the file to be valid
+				XML and be parsed by the installer
+			-->
+			<menu link="option=com_teamstats" view="banners" img="class:teamstats"
+				alt="Teamstats/Teamstats">Teamstats</menu>
+			<menu link="option=com_categories&amp;extension=com_teamstats"
+				view="categories" img="class:teamstats-cat" alt="Teamstats/Categories">Categories</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>teamstats.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<folder>controllers</folder>
+			<folder>elements</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+		</files>
+		<languages folder="admin"></languages>
+	</administration>
+</extension>
+

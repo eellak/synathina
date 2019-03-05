@@ -1,0 +1,40 @@
+         infoWindowContent : {
+            title: data.title,
+            date : new Date(data.date),
+            address : data.address,
+            team_name : data.team_name,
+            id: data.it,
+            is_featured: data.is_featured,
+            slug: data.slug,
+            team_id: data.team_id,
+            team_name: data.team_name,
+            team_members: data.team_members,
+            sponsor_title: data.sponsor_title,
+            date: data.date,
+            title: data.title,
+            content: data.content,
+            content_img: data.content_img,
+            logo: data.log,
+            logo_sponsor: data.logo_sponsor,
+            logo_team: data.logo_team            
+         }
+<div class="info">
+  <div class="info-title info-title--address">'+data.title+'</div>
+  <div class="info-meta"><span class="info-address">'+data.address+'</span>, <span class="info-date">'+data.date+'</span></div>
+  <div class="info-source">data.team_name</div>
+  <div class="info-img"><img src="'+data.source+'></div>
+  <div class="info-description">
+    <a href="">/περισσότερα</a>
+  </div>
+  <div class="info-badge">
+      <div class="info-badge-item info-badge-item--sponsor-logo">
+        <i class="fill"></i>
+      </div>
+      <div class="info-badge-item info-badge-item--team-logo">
+        <i class="fill"></i>
+      </div>
+      <div class="info-badge-item info-badge-item--team-power">
+        <i class="fill"></i>
+      </div>
+  </div>
+</div>

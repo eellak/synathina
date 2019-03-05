@@ -1,0 +1,620 @@
+.diary {
+  position: relative;
+  width: 100%;
+  max-height: 474px;
+  overflow-y: auto;
+
+}
+
+.diary.htAutoColumnSize {
+  visibility: hidden;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.diary table,
+.diary tbody,
+.diary thead,
+.diary td,
+.diary th,
+.diary div {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+}
+
+.diary table.htCore {
+  border-collapse: separate;
+  position: relative;
+  border-spacing: 0;
+  margin: 0;
+  border-width: 0;
+  table-layout: fixed;
+  width: 100%;
+  outline-width: 0;
+  max-width: none;
+  max-height: none;
+}
+
+.diary col {
+  width: 50px;
+}
+
+.diary col.rowHeader {
+  width: 50px;
+}
+
+.diary th,
+.diary td {
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+  height: 42px;
+  empty-cells: show;
+  line-height: 21px;
+  padding: 4px 0;
+  background-color: #ebebeb;
+  vertical-align: middle;
+  overflow: hidden;
+  outline-width: 0;
+
+  & > div {
+     margin-left: 10px;
+  }
+  & > div + div {
+     margin-right: 0;
+  }
+  .inline-list {
+    @include clearfix();
+    & > * {
+      float: left;
+    }
+    a {
+      font-size: 15px;
+      line-height: 15px;
+    }
+    & > * {
+      &:after {
+        margin: 0 4px;
+      }
+    }
+  }
+}
+
+.diary td.htInvalid {
+  -webkit-transition: background 0.75s ease;
+  transition: background 0.75s ease;
+  background-color: #ff4c42;
+}
+
+.diary th:last-child {
+
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #CCC;
+}
+
+.diary tr:first-child th.htNoFrame,
+.diary th:first-child.htNoFrame,
+.diary th.htNoFrame {
+  border-left-width: 0;
+  background-color: white;
+  border-color: #FFF;
+}
+
+.diary th:first-child,
+.diary td:first-child,
+.diary .htNoFrame + th,
+.diary .htNoFrame + td {
+  border-left: 1px solid #CCC;
+}
+
+.diary tr:first-child th,
+.diary tr:first-child td {
+  border-top: 1px solid #CCC;
+}
+
+.diary thead tr:last-child th {
+  border-bottom-width: 0;
+}
+
+.diary thead tr.lastChild th {
+  border-bottom-width: 0;
+}
+
+.diary th {
+  background-color: #EEE;
+  color: #222;
+  text-align: center;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.diary thead th {
+  padding: 0;
+}
+
+.diary th.active {
+  background-color: #CCC;
+}
+
+.diary thead th .relative {
+  position: relative;
+  padding: 2px 4px;
+}
+
+/* plugins */
+
+.diary .manualColumnMover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  width: 5px;
+  height: 25px;
+  z-index: 999;
+  cursor: move;
+}
+
+.diary th .manualColumnMover:hover,
+.diary th .manualColumnMover.active {
+  background-color: #88F;
+}
+
+.diary .manualColumnResizer {
+  position: absolute;
+  top: 0;
+  cursor: col-resize;
+}
+
+.diary .manualColumnResizerHandle {
+  background-color: transparent;
+  width: 5px;
+  height: 25px;
+}
+
+.diary .manualColumnResizer:hover .manualColumnResizerHandle,
+.diary .manualColumnResizer.active .manualColumnResizerHandle {
+  background-color: #AAB;
+}
+
+.diary .manualColumnResizerLine {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #AAB;
+  display: none;
+  width: 0;
+  border-right: 1px dashed #777;
+}
+
+.diary .manualColumnResizer.active .manualColumnResizerLine {
+  display: block;
+}
+
+.diary .columnSorting:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* border line */
+
+.diary .wtBorder {
+  position: absolute;
+  font-size: 0;
+}
+
+.diary td.area {
+  background-color: #EEF4FF;
+}
+
+/* fill handle */
+
+.diary .wtBorder.corner {
+  font-size: 0;
+  cursor: crosshair;
+}
+
+.diary .htBorder.htFillBorder {
+  background: red;
+  width: 1px;
+  height: 1px;
+}
+
+.diaryInput {
+  border: 2px solid #5292F7;
+  outline-width: 0;
+  margin: 0;
+  padding: 1px 4px 0 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  /*repeat from .diary (inherit doesn't work with IE<8) */
+  line-height: 1.3em;
+  /*repeat from .diary (inherit doesn't work with IE<8) */
+  font-size: inherit;
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+  resize: none;
+  /*below are needed to overwrite stuff added by jQuery UI Bootstrap theme*/
+  display: inline-block;
+  color: #000;
+  border-radius: 0;
+  background-color: #FFF;
+  /*overwrite styles potentionally made by a framework*/
+}
+
+.diaryInputHolder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.htSelectEditor {
+  -webkit-appearance: menulist-button !important;
+  position: absolute;
+}
+
+/*
+TextRenderer readOnly cell
+*/
+
+.diary .htDimmed {
+  color: #777;
+}
+
+/*
+TextRenderer placeholder value
+*/
+
+.diary .htPlaceholder {
+  color: #999;
+}
+
+/*
+AutocompleteRenderer down arrow
+*/
+
+.diary .htAutocompleteArrow {
+  float: right;
+  font-size: 10px;
+  color: #EEE;
+  cursor: default;
+  width: 16px;
+  text-align: center;
+}
+
+.diary td .htAutocompleteArrow:hover {
+  color: #777;
+}
+
+/*
+CheckboxRenderer
+*/
+
+.diary .htCheckboxRendererInput.noValue {
+  opacity: 0.5;
+}
+
+/*
+NumericRenderer
+*/
+
+.diary .htNumeric {
+  text-align: right;
+}
+
+/*context menu rules*/
+
+ul.context-menu-list {
+  color: black;
+}
+
+ul.context-menu-list li {
+  margin-bottom: 0;
+  /*Foundation framework fix*/
+}
+
+/**
+ * dragdealer
+ */
+
+.diary .dragdealer {
+  position: relative;
+  width: 9px;
+  height: 9px;
+  background: #F8F8F8;
+  border: 1px solid #ebebeb;
+}
+
+.diary .dragdealer .handle {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  //background: #C5C5C5;
+}
+
+.diary .dragdealer .disabled {
+  background: #898989;
+}
+
+/**
+ * diary in diary
+ */
+
+.diary .diary .wtHider {
+  padding: 0 0 5px 0;
+}
+
+.diary .diary table {
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+/**
+ * diary listbox theme
+ */
+
+.diary.listbox {
+  margin: 0;
+}
+
+.diary.listbox table {
+  border: 1px solid #ccc;
+  border-collapse: separate;
+  background: white;
+}
+
+.diary.listbox th,
+.diary.listbox tr:first-child th,
+.diary.listbox tr:last-child th,
+.diary.listbox tr:first-child td,
+.diary.listbox td {
+  border-width: 0;
+}
+
+.diary.listbox th,
+.diary.listbox td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.diary.listbox td.htDimmed {
+  cursor: default;
+  color: inherit;
+  font-style: inherit;
+}
+
+.diary.listbox .wtBorder {
+  visibility: hidden;
+}
+
+.diary.listbox tr td.current,
+.diary.listbox tr:hover td {
+  background: #eee;
+}
+
+.htContextMenu {
+  display: none;
+  position: absolute;
+}
+
+.htContextMenu table.htCore {
+  outline: 1px solid #bbb;
+}
+
+.htContextMenu .wtBorder {
+  visibility: hidden;
+}
+
+.htContextMenu table tbody tr td {
+  background: white;
+  border-width: 0;
+  padding: 4px 6px 0px 6px;
+  cursor: pointer;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.htContextMenu table tbody tr td:first-child {
+  border: 0;
+}
+
+.htContextMenu table tbody tr td.htDimmed{
+  font-style: normal;
+  color: #323232;
+}
+
+.htContextMenu table tbody tr td.current{
+  background: rgb(233, 233, 233);
+}
+
+.htContextMenu table tbody tr td.htSeparator {
+  border-top: 1px solid #bbb;
+  height: 0;
+  padding: 0;
+}
+
+.htContextMenu table tbody tr td.htDisabled {
+  color: #999;
+}
+
+.htContextMenu table tbody tr td.htDisabled:hover {
+  background: white;
+  color: #999;
+  cursor: default;
+}
+
+.diary td.htSearchResult {
+  background: #fcedd9;
+  color: #583707;
+}
+
+.wtDebugHidden {
+  display: none;
+}
+
+.wtDebugVisible {
+  display: block;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-name: wtFadeInFromNone;
+  animation-duration: 0.5s;
+  animation-name: wtFadeInFromNone;
+}
+
+@keyframes wtFadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes wtFadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+
+
+}
+
+.diary tbody td {
+  margin:0; padding:0;
+  text-align: center;
+  vertical-align: middle;
+  &:nth-of-type(2){
+    text-align: left;
+  }
+}
+
+.diary-table {
+  width: 100%;
+}
+
+
+
+.diary {
+
+  ul {list-style-type: none;}
+  body {font-family: Verdana,sans-serif;}
+
+  .month {
+      padding: 70px 25px;
+      background: #1abc9c;
+      display: none;
+  }
+
+  .month ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .month ul li {
+      color: white;
+      font-size: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+  }
+
+  .month .prev {
+      float: left;
+      padding-top: 10px;
+  }
+
+  .month .next {
+      float: right;
+      padding-top: 10px;
+  }
+
+  .weekdays {
+      margin: 0;
+      padding: 10px 0;
+      background-color: #ebebeb;
+
+  }
+
+  .weekdays li {
+      display: inline-block;
+      width: 13.6%;
+      color: #666;
+      text-align: center;
+      color: $blue-ele;
+      font-weight: bold;
+  }
+
+  .days {
+      //padding: 10px 0;
+      background: #eee;
+      margin: 0;
+      @include clearfix();
+      @include flexbox;
+      @include flex-flow(wrap);
+  }
+
+  .days li {
+      list-style-type: none;
+      display: inline-block;
+      float: left;
+      //width: 13.6%;
+      height: 81px;
+
+      text-align: right;
+      margin-bottom: 0px;
+      font-size:12px;
+      color: #777;
+      border-top: 1px solid #ccc;
+      position: relative;
+      padding: 10px;
+
+      @include flex-grow(1);
+      @include flex-shrink(0);
+      @include flex-basis(13.6%);
+
+      + li {
+        border-right: 1px solid #ccc;
+      }
+      &:first-of-type{
+        border-right: 1px solid #ccc;
+      }
+  }
+
+  .days li .active {
+      //padding: 5px;
+      background: #1abc9c;
+      color: white !important
+  }
+
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+      .weekdays li, .days li {width: 13.1%;}
+  }
+
+  @media screen and (max-width: 420px) {
+      .weekdays li, .days li {width: 12.5%;}
+      .days li .active {padding: 2px;}
+  }
+
+  @media screen and (max-width: 290px) {
+      .weekdays li, .days li {width: 12.2%;}
+  }
+
+}

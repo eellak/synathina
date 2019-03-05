@@ -1,0 +1,73 @@
+.l-stegh {
+   @extend .container-fluid;
+   max-width: 1240px;
+   padding-bottom: 100px;
+}
+.l-stegh .module + .btn {
+   margin-top: 30px;
+   padding: 10px;
+   background-color: #ebebeb;
+   color: #5d5d5d;
+}
+.l-stegh .inline-list--headline {
+   a {
+      text-transform: underline;
+   }
+}
+
+.l-stegh {
+   .c-diary + .btn-group {
+      margin-top: 100px;
+      width: 100%;
+      text-align: center;
+      .btn {
+          display: inline-block;
+          margin: 0 20px;
+          margin-top: 30px;
+          padding: 10px;
+          color: #fff;
+      }
+   }
+   .c-diary {
+      .tab {
+            display: none;
+            &.active {
+               display: block;
+            }
+            
+      }
+     
+      .diary-switcher {
+            .diary-labels {
+               & > * {
+                  display: none;
+                  &.active {
+                     display: block;
+                  }
+               }
+            }
+            button {
+               width: 60px;
+            }
+      }
+      .diary-switcher {
+        text-align: center;
+        height: 30px;
+        margin-bottom: 10px;
+        & > * {
+          display: inline-block;
+          font-size: 22px;
+          line-height: 30px;
+          font-weight: 300;
+          color: #5d5d5d;
+        }
+        button {
+          background-color: #fff;
+        } 
+        span {
+          padding:0 15px;
+        }
+      }      
+   }
+
+}

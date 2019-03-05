@@ -1,0 +1,122 @@
+.gallery {
+   @include make-row(20px);
+   &-item {
+      @include make-xs-column(4, 20px);
+      .fill {
+         @include fill($padding-bottom: 80.555556%);
+         background-color: #ccc;
+      }
+      margin-top: 20px;
+   }
+   &-title {
+      @include make-xs-column(12, 10px);
+      float: none;
+      font-size: 22px;
+      font-weight: bold;
+      color: #5d5d5d;
+      margin-bottom: 0;
+      border-top: 1px solid #d3d3d3;
+      padding-top: 20px;
+   }
+   &-frame {
+      @include clearfix;
+   }
+   
+   .slick-arrow {
+      @include vertical-align;
+      width: 25px;
+      height: 79px;
+      overflow: hidden;
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url(../img/slider/arr_prev.png);
+      background-color: transparent;
+      color: transparent;
+      &:focus {
+         outline: 0 !important;
+      }
+      &.slick-prev {
+         left: -40px;
+         right: auto;
+         //background: url(../img/slider/arr_next.png) left top no-repeat
+
+
+      }
+      &.slick-next {
+         right: -40px;
+         left: auto;
+         -webkit-transform: rotate(180deg) translateY(50%);
+         -ms-transform: rotate(180deg) translateY(50%);
+         -o-transform: rotate(180deg) translateY(50%);
+         transform: rotate(180deg) translateY(50%);
+      }
+
+      @media(max-width: $screen-md){
+         .slick-arrow {
+            display: none;
+         }
+      }
+   }
+   .slick-dots {
+      @extend  .pagination;
+
+      display: block !important;
+      margin: auto;
+      margin-top: 20px;
+      text-align: center;
+      .slick-active {
+         a {
+            color: $orange;
+         }
+      }
+   }
+
+
+
+}
+
+.gallery--multirow {
+
+}
+
+.gallery--charts {
+   @include make-row(0);
+   margin-top: 42px;
+}
+.gallery--thumbnail {
+   @include make-row(10px);
+   .thumbnail > .fill {
+      @include fill($padding-bottom: 80.555556%);
+   }
+   .thumbnail .caption  p {
+      margin-top: 5px;
+   }
+   .caption {
+      color: #5d5d5d;
+      &-title {
+         font-size: 24px;
+         display: block;
+         font-weight: bold;
+      }
+      &-details {
+         font-size: 16px;
+         display: block;
+      }
+      &-italic {
+         display: block;
+         margin-top: 5px;
+      }
+   }
+   .gallery-item {
+      @include make-xs-column(3, 10px);
+   }
+}
+
+.gallery--filter {
+   @include make-row(10px);
+   .gallery-item {
+      @include make-xs-column(2, 10px);
+      margin-top: 10px;
+   }
+}

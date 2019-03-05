@@ -1,0 +1,70 @@
+   //## Font, line-height, and color for body text, headings
+//
+$font-family-base:        'Open sans', Helvetica, Arial, sans-serif !default;
+$font-size-base:          13px;
+$font-size-large:         ceil(($font-size-base * 1.25)); // ~16px
+$font-size-small:         ceil(($font-size-base * 0.85)); // ~11px
+
+$font-size-h1:            floor(($font-size-base * 2.6)); // ~32px
+$font-size-h2:            floor(($font-size-base * 2.15)); // ~27.95px
+$font-size-h3:            ceil(($font-size-base * 1.7)); // ~22px
+$font-size-h4:            ceil(($font-size-base * 1.25)); // ~16px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)); // ~11px
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:        1.53846154; // 20/13
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
+
+$text-color : #000;
+$body-bg : #fff;
+
+// Links
+$link-color : initial;
+
+// Colors
+/*
+$gray-lighter : #eeeeee; //rgb(238, 238, 238);
+
+$gray-dark : #b1b1b1; //rgb(177, 177, 177);
+$brown-lighter : #c6c0a5; //rgb(198, 192, 165);
+$brown : #a1976b; //rgb(161, 151, 107);
+$gold : #d3c277; // rgb(211, 194, 119);
+$blue-lighter : #bed2e3; //rgb(190, 210, 227);
+$blue : #2a5b83; //rgb(42, 91, 131);
+$black : #000000; //rgb(0, 0, 0);
+$instagram-color-light : #a8c3d9;
+$instagram-color: #2a5b83;
+*/
+
+// Colors Synathina
+$gray : #d3d3d3; //rgb(211, 211, 211);
+$black : #000000; //rgb(0, 0, 0);
+$blue-ele :#78b7e3;
+
+$yellow-selected :#f8e300;
+$gray-text : #5d5d5d;
+$orange : #fc8f0a;
+$color-more: #78b7e3;
+$color-module : #ececec;
+$navLinksColor: #666666;
+$navLinksColorSelected: #78b7e3;
+$baseBorderColor: #c8c8c8;
+$footerBorderColor: #bdbdbd;
+$navBorderColor: #bdbdbd;
+//-- Z-index master list
+//
+//##
+
+$zindex-dropdown:          1000;
+$zindex-popover:           1060;
+$zindex-tooltip:           1070;
+$zindex-navbar-fixed:      1030;
+$zindex-modal-background:  1040;
+$zindex-modal:             1050;
+$zindex-critical-message:  1070;
+$zindex-homepage-featured: 1080;
+$zindex-navbar:            1090;
+$zindex-footer:            1090;
+$zindex-mobile-menu:       1100;

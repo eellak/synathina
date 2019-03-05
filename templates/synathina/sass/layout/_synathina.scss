@@ -1,0 +1,64 @@
+.l-synathina {}
+.l-synathina {
+   @extend .container;
+}
+.l-synathina, .l-teams--listing {
+    .module--synathina:nth-child(even) .module-skewed{
+      background: #fff !important;
+   }
+   .module--synathina:nth-child(odd) .module-skewed{
+      background: #ececec !important;
+   }
+   & > * + * {
+      margin-top: 42px;
+   }
+   .module-title--layout {
+      color: $orange;
+      margin-top: 60px;
+      margin-bottom: 0;
+   }
+   .module--synathina {
+      .media {
+         margin-left: 0;
+         @media(min-width: $screen-md) {
+            margin-left: -88px;
+         }
+      }
+      .module-wrapper {
+         & + .module-progress {
+            margin-top: 100px;
+         }
+      }
+      .module-title {
+         margin-top: 0;
+      }
+   }
+   .module-progress + .module-progress {
+      margin-top: 25px;
+   }
+   .module-progress:last-of-type{
+      margin-bottom: 100px;
+   }
+}
+
+.l-synathina .filters {
+   margin: 10px 0 0 0;
+   .filter-checkbox .form-group {
+      display: inline-block;
+      float: none;
+      text-align: center;
+      margin: 10px 5px;
+      + .form-group {
+         margin-bottom: 10px;
+      }
+   }
+   + .module--synathina {
+      margin-top: 0px;
+   }
+}
+
+.l-synathina {
+   p {
+      margin: 0;
+   }
+}

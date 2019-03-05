@@ -1,0 +1,25 @@
+.browser-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: flex-start;
+    background: $navLinksColorSelected;
+    display: none;
+    flex-direction: column;
+
+    p {
+        margin-top: 100px;
+        max-width: 50%;
+        font-size: 40px;
+        color: #fff
+    }
+
+    &--open {
+        display: flex;
+        z-index: $zindex-critical-message;
+    }
+}

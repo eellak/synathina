@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content">
+	<name>plg_content_images</name>
+	<author>Dizi</author>
+	<creationDate>January 2013</creationDate>
+	<copyright>Copyright (C) 2013 dizi.lt</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>labs@dizi.lt</authorEmail>
+	<authorUrl>http://www.dizi.lt/labs</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_IMAGES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="images">images.php</filename>
+		<filename>phpQuery-onefile.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_images.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_images.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="theme"
+					type="list"
+					label="PLG_IMAGES_CHOOSE_THEME_TITLE"
+					description="PLG_IMAGES_CHOOSE_THEME_DESC"
+				>
+					<option value="isis">Isis</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
